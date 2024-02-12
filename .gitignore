@@ -1,5 +1,11 @@
-__Previews/*
-01_SCH/__Previews/*
-01_SCH/History
-History/*
-Project Logs for XDRONE/**
+Hardware/__Previews/*
+Hardware/01_SCH/__Previews/*
+Hardware/01_SCH/History
+Hardware/History/*
+Hardware/Project Logs for XDRONE/**
+Firmware/GNU ARM v12.2.1 - Debug
+
+
+!Firmware/GNU ARM v12.2.1 - Debug/xdrone.hex
+!Firmware/GNU ARM v12.2.1 - Debug/xdrone.map
+!Firmware/GNU ARM v12.2.1 - Debug/xdrone.axf
