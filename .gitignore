@@ -1,7 +1,12 @@
 Hardware/__Previews/*
 Hardware/01_SCH/__Previews/*
 Hardware/01_SCH/History
+Hardware/02_PCB/__Previews/*
+Hardware/02_PCB/History
+Hardware/03_OUTPUTS/02_PCB/__Previews/*
+Hardware/03_OUTPUTS/02_PCB/History
 Hardware/History/*
+Hardware/Project Outputs for XDRONE/**
 Hardware/Project Logs for XDRONE/**
 Firmware/GNU ARM v12.2.1 - Debug
 
