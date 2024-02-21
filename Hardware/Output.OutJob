@@ -168,9 +168,9 @@ Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS/01_BOM\
+OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS\01_BOM\
 ReleaseManaged2=0
-OutputBasePath2=03_OUTPUTS/01_BOM\
+OutputBasePath2=03_OUTPUTS\01_BOM\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=
@@ -181,9 +181,9 @@ OutputFileNameMulti2==ProjectName+_BOM
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
-OutputFilePath3=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS/02_PCB\
+OutputFilePath3=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS\02_PCB\
 ReleaseManaged3=0
-OutputBasePath3=03_OUTPUTS/02_PCB\
+OutputBasePath3=03_OUTPUTS\02_PCB\
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=
@@ -245,7 +245,7 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS/01_BOM\
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS\01_BOM\
 OpenOutputs2=1
 AddToProject2=1
 TimestampFolder2=0
@@ -255,7 +255,7 @@ OpenGerberOutput2=0
 OpenNCDrillOutput2=0
 OpenIPCOutput2=0
 EnableReload2=0
-RelativeOutputPath3=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS/02_PCB\
+RelativeOutputPath3=C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\03_OUTPUTS\02_PCB\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
