@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: XDRONE.PcbDoc   25/02/2024  17:35:25
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : XDRONE_GERBER.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          405              1645.21 mm (64.77 Inch)
+T2        1.1mm (43.307mil)        Round          2                2.54 mm (0.10 Inch)
+T3        1.5mm (59.055mil)        Round          1                0.00 mm (0.00 Inch)
+T4        1.7mm (66.929mil)        Round          4                15.24 mm (0.60 Inch)
+T5        6mm (236.22mil)          Round          4         NPTH   320.00 mm (12.60 Inch)
+---------------------------------------------------------------------------
+Totals                                            416              1982.99 mm (78.07 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

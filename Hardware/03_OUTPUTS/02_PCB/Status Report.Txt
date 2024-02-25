@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [XDRONE.PcbDoc]
+   Generated File[XDRONE_GERBER.TXT]
+   Generated File[XDRONE_GERBER.LDP]
+   Generated File[XDRONE_GERBER.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:35:25 On 25/02/2024
