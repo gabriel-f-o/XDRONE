@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:30:11 On 02/03/2024
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [XDRONE.PrjPcb]
+   Generated File[XDRONE_BOM.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:30:20 On 02/03/2024

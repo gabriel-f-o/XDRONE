@@ -278,6 +278,10 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for XDRONE\Design Rule Check - XDRONE.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=03_OUTPUTS\01_BOM\XDRONE_BOM.xls
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
