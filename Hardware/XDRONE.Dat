@@ -1,7 +1,8 @@
-Field=Description~String~Description~183|Field=Designator~String~Designator~111|Field=MANUFACTURER~String~MANUFACTURER~88|Field=MANUFACTURER REFERENCE~String~MANUFACTURER REFERENCE~88|Field=MOUNTING~String~MOUNTING~88|Field=PACKAGING~String~PACKAGING~100|Field=Quantity~Integer~Quantity~109|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~XDRONE.PrjPcb|ReportField=ProjectFullPath~C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\XDRONE.PrjPcb|ReportField=Title~Bill of Materials For Project [XDRONE.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~125|ReportField=ReportTime~13:30:12|ReportField=ReportDate~02/03/2024|ReportField=ReportDateTime~02/03/2024 13:30:12|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~L3, 12a Rodborough Rd|ReportField=Address2~Frenchs Forest|ReportField=Address3~NSW|ReportField=Address4~Australia 2086|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Gabriel|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~Altium Limited|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~8|ReportField=Subtitle~Main|ReportField=Time~|ReportField=Title~XDRONE|ReportField=DataSourceFileName~XDRONE.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\XDRONE.PrjPcb
+Field=Description~String~Description~183|Field=Designator~String~Designator~111|Field=MANUFACTURER~String~MANUFACTURER~88|Field=MANUFACTURER REFERENCE~String~MANUFACTURER REFERENCE~88|Field=MOUNTING~String~MOUNTING~88|Field=PACKAGING~String~PACKAGING~100|Field=Quantity~Integer~Quantity~109|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~XDRONE.PrjPcb|ReportField=ProjectFullPath~C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\XDRONE.PrjPcb|ReportField=Title~Bill of Materials For Project [XDRONE.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~129|ReportField=ReportTime~13:06:04|ReportField=ReportDate~22/03/2024|ReportField=ReportDateTime~22/03/2024 13:06:04|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~L3, 12a Rodborough Rd|ReportField=Address2~Frenchs Forest|ReportField=Address3~NSW|ReportField=Address4~Australia 2086|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Gabriel|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~Altium Limited|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~8|ReportField=Subtitle~Main|ReportField=Time~|ReportField=Title~XDRONE|ReportField=DataSourceFileName~XDRONE.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\XDRONE.PrjPcb
 Button PTS647SK38SMTR2LFS|B700, B701, B702|C&K|PTS647SK38SMTR2LFS|SMD||3
 CAP 4.7uF 10% 106 0805 X7R|C200|MURATA|GRM21BR71C475KE51L|SMD|0805|1
 CAP 10uF 20% 6.3V 0805 X5R|C201|TAYIO YUDEN|JMK212BJ106MG-T|SMD|0805|1
+CAPACITOR 1uF 10% X5R 0402|C202, C203, C804, C805, C814, C816|MURATA|GRM155R6YA105KE11J|SMD|0402|6
 CAPACITOR 10uF 20% 6.3V 0402 GRM155R60J106ME05D|C300, C400, C809|MURATA|GRM155R60J106ME05D|SMD|0402|3
 CAPACITOR 100nF 10% X7R 0402|C301, C302, C401, C402, C502, C506, C510, C514, C803, C807, C810|MURATA|GRM155R71C104KA88J|SMD|0402|11
 CAP 10uF 10% 10V 0805 X6S|C500, C501, C504, C505, C508, C509, C512, C513|MURATA|GRM21BC81C106KA73L|SMD|0805|8
@@ -9,7 +10,6 @@ CAPACITOR 100pF 5% 50V 0402 CC0402JRNPO9BN101|C503, C507, C511, C515, C811, C813
 CAP 220pF 5% 50V 0805 C0G,NP0|C800|JOHANSON TECHLONOGY|QSCT251Q221J1GV001E|SMD|0805|1
 CAPACITOR 6.3pF 1.5% 50V 0402 CBR04C639B5GAC|C801|KEMET|CBR04C639B5GAC|SMD|0402|1
 CAPACITOR 2.1pF 5% 50V 0402 GJM1555C1H2R1BB01D|C802|MURATA|GJM1555C1H2R1BB01D|SMD|0402|1
-CAPACITOR 1uF 10% X5R 0402|C804, C805, C814, C816|MURATA|GRM155R6YA105KE11J|SMD|0402|4
 CAPACITOR 10nF 10% 6.3V 0402 CC0402KRX7R5BB103|C806|YAGEO|CC0402KRX7R5BB103|SMD|0402|1
 CAP 2.7uF 10% 10V 0805 X5R C0805C275K8PAC7800|C808|KEMET|C0805C275K8PAC7800|SMD|0805|1
 CAPACITOR 470nF 10% 6.3V 0402 GCM1555C1H101JA16D|C812|MURATA|GCM1555C1H101JA16D|SMD|0402|1
@@ -29,7 +29,7 @@ INDUCTOR 4.2nH 5% 1.8A LQW15AN4N2C8ZD|L802|MURATA|LQW15AN4N2C8ZD|SMD|0402|1
 INDUCTOR 52uH 25% 750mA BLM03PG330SN1|L803|MURATA|BLM03PG330SN1|SMD|0201|1
 INDUCTOR 110nH 50% 200mA BLM03AG700SN1D|L804|MURATA|BLM03AG700SN1D|SMD|0201|1
 Brushed DC motor 3.7V|M500, M501, M502, M503|Aliexpress|1020|THT|CUSTOM|4
-TEST_POINT_2mm|P100, P101, P102, P103, P200, P300, P301, P302, P303, P304, P305, P400, P401, P402, P403, P500, P501, P502, P503|||SMD||19
+TEST_POINT_2mm|P100, P101, P102, P103, P200, P201, P300, P301, P302, P303, P304, P305, P400, P401, P402, P403, P500, P501, P502, P503|||SMD||20
 RESISTOR 100R 1% 0402 RC0402FR-07100RL|R500, R501, R504, R505|YAGEO|RC0402FR-07100RL|SMD|0402|4
 RESISTOR 11k 5% 0402 ERJ-2GEJ113X|R502, R503, R506, R507, R606, R607, R608, R703, R704, R800|PANASONIC|ERJ-2GEJ113X|SMD|0402|10
 RESISTOR SMD 0805 340R 1/4W 1% METAL|R600, R601, R602|KOA|RK73H2ATTD3400F|SMD|0805|3
@@ -37,6 +37,7 @@ RESISTOR 1k 1% 0402 RC0402FR-071KL|R603, R604, R605, R701|YAGEO|RC0402FR-071KL|S
 RESISTOR 10k 1% 0402 RC0402FR-0710KL|R700, R702, R705|YAGEO|RC0402FR-0710KL|SMD|0402|3
 THERMISTANCE 10k 1% 0402 NTCG103JF103FT1|R706|TDK|NTCG103JF103FT1|SMD|0402|1
 DCDC 2-5Vin 3.3Vout 1A 300mA TPS62203DBVR|U200|TI|TPS62203DBVR|SMD|SOT-23-5|1
+LDO 6Vin 3.3Vout MIC5504-3.3YM5-TR|U201|MICROCHIP|MIC5504-3.3YM5-TR|SMD|SOT-23-5|1
 Gyroscope and accelerometer 3D 3.6V ASM330LHH|U300|ST|ASM330LHH|SMD|14-LGA|1
 BAROMETRIC SENSOR 4V 0.002hPA 500nA DPS368XTSA1|U400|INFINEON|DPS368XTSA1|SMD|8-VFLGA|1
 MOS N 1G 20VDS 6.9A 0.65Vth PMN16XNEX|U500, U501, U502, U503|NEXPERIA|PMN16XNEX|SMD|SOT-457|4
