@@ -1,8 +1,8 @@
 DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\XDRONE\Hardware\02_PCB\XDRONE.PcbDoc
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion MCU|Scope=Board|Minimum=1.50
-RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing VIA|Scope=Board|Minimum=2.95
-RuleKind=Clearance|RuleName=Clearance Diff|Scope=Board|Minimum=7.87
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.54
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=11.81
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.54
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance Diff|Scope=Board|Minimum=7.87
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing VIA|Scope=Board|Minimum=2.95
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion MCU|Scope=Board|Minimum=1.50
