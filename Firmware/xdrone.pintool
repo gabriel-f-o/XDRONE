@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="ASCII"?>
-<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32FG28A120F1024GM48" partId="mcu.arm.efr32.fg28.efr32fg28a120f1024gm48" contextId="com.silabs.sdk.stack.super:4.4.0._-1637281850">
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32FG28A120F1024GM48" partId="mcu.arm.efr32.fg28.efr32fg28a120f1024gm48" contextId="com.silabs.sdk.stack.super:4.4.3._-285443621">
   <mode name="DefaultMode">
     <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_IOEUSART%T%sl_iostream_eusart_ioeusart_config.h"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EUSART0" propertyId="peripheral.name" value="EUSART_CLI"/>
+    <property object="LFXO" propertyId="ABModule.selectedRequirement" value="lfxo%T%SL_DEVICE_INIT_LFXO%T%sl_device_init_lfxo_config.h"/>
+    <property object="LFXO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="LFXO" propertyId="peripheral.name" value="LFXO"/>
+    <property object="PA04" propertyId="pin.name" value="CLI_RX"/>
+    <property object="PA05" propertyId="pin.name" value="CLI_TX"/>
+    <property object="PC04" propertyId="pin.name" value="BTN0"/>
+    <property object="PC04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC05" propertyId="pin.name" value="BTN1"/>
+    <property object="PC05" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="4"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.tx" value="5"/>
+    <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_i" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_o" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.rx" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.tx" value="5"/>
+    <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_IOUART%T%sl_iostream_usart_iouart_config.h"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="peripheral.name" value="USART_CLI"/>
   </mode>
   <modeTransition>
     <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>

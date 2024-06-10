@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "XDRONE",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "C:\\SiliconLabs\\SimplicityStudio\\v5\\developer\\toolchains\\gnu_arm\\12.2.rel1_2023.7\\bin\\arm-none-eabi-gcc-12.2.1.exe"
+        }
+    ],
+    "version": 4
+}
