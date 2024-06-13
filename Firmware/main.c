@@ -40,7 +40,7 @@ int main(void)
   // task(s) if the kernel is present.
   app_init();
 
-  printf("Hello Drone\n");
+
 
 #if defined(SL_CATALOG_KERNEL_PRESENT)
   // Start the kernel. Task(s) created in app_init() will start running.

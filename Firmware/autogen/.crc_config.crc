@@ -4,6 +4,7 @@ emlib_core_debug_config.h=-212744839
 sl_cli_config.h=690748531
 sl_cli_config_cli.h=1118800287
 sl_device_init_dcdc_config.h=1498363383
+sl_device_init_dpll_config.h=2140489157
 sl_device_init_emu_config.h=622680131
 sl_device_init_hfxo_config.h=1255225254
 sl_device_init_lfxo_config.h=-45943325

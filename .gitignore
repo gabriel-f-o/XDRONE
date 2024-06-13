@@ -8,9 +8,5 @@ Hardware/03_OUTPUTS/02_GERBER/History
 Hardware/History/*
 Hardware/Project Outputs for XDRONE/**
 Hardware/Project Logs for XDRONE/**
-Firmware/GNU ARM v12.2.1 - Debug
 
-
-!Firmware/GNU ARM v12.2.1 - Debug/xdrone.hex
-!Firmware/GNU ARM v12.2.1 - Debug/xdrone.map
-!Firmware/GNU ARM v12.2.1 - Debug/xdrone.axf
+Firmware/XDRONE_cmake/build/CMakeFiles/** */

@@ -1,4 +1,0 @@
-C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake/build/CMakeFiles/slc_XDRONE.dir
-C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake/build/CMakeFiles/XDRONE.dir
-C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake/build/CMakeFiles/edit_cache.dir
-C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake/build/CMakeFiles/rebuild_cache.dir

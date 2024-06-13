@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32FG28A120F1024GM48" partId="mcu.arm.efr32.fg28.efr32fg28a120f1024gm48" contextId="com.silabs.sdk.stack.super:4.4.3._-285443621">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_IOEUSART%T%sl_iostream_eusart_ioeusart_config.h"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EUSART0" propertyId="peripheral.name" value="EUSART_CLI"/>
+    <property object="LFXO" propertyId="ABModule.selectedRequirement" value="lfxo%T%SL_DEVICE_INIT_LFXO%T%sl_device_init_lfxo_config.h"/>
+    <property object="LFXO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="LFXO" propertyId="peripheral.name" value="LFXO"/>
+    <property object="PA04" propertyId="pin.name" value="CLI_RX"/>
+    <property object="PA05" propertyId="pin.name" value="CLI_TX"/>
+    <property object="PA08" propertyId="pin.name" value="LED_RED"/>
+    <property object="PA09" propertyId="pin.name" value="LED_GREEN"/>
+    <property object="PA10" propertyId="pin.name" value="LED_BLUE"/>
+    <property object="PC04" propertyId="pin.name" value="BTN0"/>
+    <property object="PC04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC05" propertyId="pin.name" value="BTN1"/>
+    <property object="PC05" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC06" propertyId="pin.name" value="MOTOR_UP_LEFT"/>
+    <property object="PC07" propertyId="pin.name" value="MOTOR_DOWN_LEFT"/>
+    <property object="PC08" propertyId="pin.name" value="MOTOR_DOWN_RIGHT"/>
+    <property object="PC09" propertyId="pin.name" value="MOTOR_UP_RIGHT"/>
+    <property object="PD02" propertyId="pin.name" value="VBATT_DIV2"/>
+    <property object="PD03" propertyId="pin.name" value="TEMP"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="4"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.tx" value="5"/>
+    <property object="PORTIO" propertyId="portio.iadc0.enable.scan0pos" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.iadc0.enable.scan1pos" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.iadc0.location.pos" value="178"/>
+    <property object="PORTIO" propertyId="portio.iadc0.location.scan0pos" value="178"/>
+    <property object="PORTIO" propertyId="portio.iadc0.location.scan1pos" value="179"/>
+    <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_i" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_o" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc1" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc2" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc0" value="38"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc1" value="9"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc2" value="10"/>
+    <property object="PORTIO" propertyId="portio.timer1.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer1.enable.cc1" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer1.location.cc0" value="40"/>
+    <property object="PORTIO" propertyId="portio.timer1.location.cc1" value="41"/>
+    <property object="PORTIO" propertyId="portio.timer2.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer2.location.cc0" value="8"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.rx" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.tx" value="5"/>
+    <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_IOUART%T%sl_iostream_usart_iouart_config.h"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="peripheral.name" value="USART_CLI"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>

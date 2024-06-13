@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "em_cmu.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "sl_assert.h": "c",
+        "em_device.h": "c"
     }
 }

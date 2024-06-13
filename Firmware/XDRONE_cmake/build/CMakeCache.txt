@@ -258,7 +258,7 @@ CMAKE_STRIP:FILEPATH=C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//No help, variable specified on the command line.
+//The CMake toolchain file
 CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake/toolchain.cmake
 
 //If this value is on, makefiles will be generated without the

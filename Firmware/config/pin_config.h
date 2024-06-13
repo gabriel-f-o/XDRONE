@@ -75,12 +75,60 @@
 // [GPIO]$
 
 // $[TIMER0]
+// TIMER0 CC0 on PC06
+#ifndef TIMER0_CC0_PORT                         
+#define TIMER0_CC0_PORT                          gpioPortC
+#endif
+#ifndef TIMER0_CC0_PIN                          
+#define TIMER0_CC0_PIN                           6
+#endif
+
+// TIMER0 CC1 on PA09
+#ifndef TIMER0_CC1_PORT                         
+#define TIMER0_CC1_PORT                          gpioPortA
+#endif
+#ifndef TIMER0_CC1_PIN                          
+#define TIMER0_CC1_PIN                           9
+#endif
+
+// TIMER0 CC2 on PA10
+#ifndef TIMER0_CC2_PORT                         
+#define TIMER0_CC2_PORT                          gpioPortA
+#endif
+#ifndef TIMER0_CC2_PIN                          
+#define TIMER0_CC2_PIN                           10
+#endif
+
 // [TIMER0]$
 
 // $[TIMER1]
+// TIMER1 CC0 on PC08
+#ifndef TIMER1_CC0_PORT                         
+#define TIMER1_CC0_PORT                          gpioPortC
+#endif
+#ifndef TIMER1_CC0_PIN                          
+#define TIMER1_CC0_PIN                           8
+#endif
+
+// TIMER1 CC1 on PC09
+#ifndef TIMER1_CC1_PORT                         
+#define TIMER1_CC1_PORT                          gpioPortC
+#endif
+#ifndef TIMER1_CC1_PIN                          
+#define TIMER1_CC1_PIN                           9
+#endif
+
 // [TIMER1]$
 
 // $[TIMER2]
+// TIMER2 CC0 on PA08
+#ifndef TIMER2_CC0_PORT                         
+#define TIMER2_CC0_PORT                          gpioPortA
+#endif
+#ifndef TIMER2_CC0_PIN                          
+#define TIMER2_CC0_PIN                           8
+#endif
+
 // [TIMER2]$
 
 // $[TIMER3]
@@ -127,6 +175,22 @@
 // [LETIMER0]$
 
 // $[IADC0]
+// IADC0 SCAN0POS on PD02
+#ifndef IADC0_SCAN0POS_PORT                     
+#define IADC0_SCAN0POS_PORT                      gpioPortD
+#endif
+#ifndef IADC0_SCAN0POS_PIN                      
+#define IADC0_SCAN0POS_PIN                       2
+#endif
+
+// IADC0 SCAN1POS on PD03
+#ifndef IADC0_SCAN1POS_PORT                     
+#define IADC0_SCAN1POS_PORT                      gpioPortD
+#endif
+#ifndef IADC0_SCAN1POS_PIN                      
+#define IADC0_SCAN1POS_PIN                       3
+#endif
+
 // [IADC0]$
 
 // $[ACMP0]
@@ -178,6 +242,27 @@
 #define CLI_TX_PIN                               5
 #endif
 
+#ifndef LED_RED_PORT                            
+#define LED_RED_PORT                             gpioPortA
+#endif
+#ifndef LED_RED_PIN                             
+#define LED_RED_PIN                              8
+#endif
+
+#ifndef LED_GREEN_PORT                          
+#define LED_GREEN_PORT                           gpioPortA
+#endif
+#ifndef LED_GREEN_PIN                           
+#define LED_GREEN_PIN                            9
+#endif
+
+#ifndef LED_BLUE_PORT                           
+#define LED_BLUE_PORT                            gpioPortA
+#endif
+#ifndef LED_BLUE_PIN                            
+#define LED_BLUE_PIN                             10
+#endif
+
 #ifndef BTN0_PORT                               
 #define BTN0_PORT                                gpioPortC
 #endif
@@ -190,6 +275,48 @@
 #endif
 #ifndef BTN1_PIN                                
 #define BTN1_PIN                                 5
+#endif
+
+#ifndef MOTOR_UP_LEFT_PORT                      
+#define MOTOR_UP_LEFT_PORT                       gpioPortC
+#endif
+#ifndef MOTOR_UP_LEFT_PIN                       
+#define MOTOR_UP_LEFT_PIN                        6
+#endif
+
+#ifndef MOTOR_DOWN_LEFT_PORT                    
+#define MOTOR_DOWN_LEFT_PORT                     gpioPortC
+#endif
+#ifndef MOTOR_DOWN_LEFT_PIN                     
+#define MOTOR_DOWN_LEFT_PIN                      7
+#endif
+
+#ifndef MOTOR_DOWN_RIGHT_PORT                   
+#define MOTOR_DOWN_RIGHT_PORT                    gpioPortC
+#endif
+#ifndef MOTOR_DOWN_RIGHT_PIN                    
+#define MOTOR_DOWN_RIGHT_PIN                     8
+#endif
+
+#ifndef MOTOR_UP_RIGHT_PORT                     
+#define MOTOR_UP_RIGHT_PORT                      gpioPortC
+#endif
+#ifndef MOTOR_UP_RIGHT_PIN                      
+#define MOTOR_UP_RIGHT_PIN                       9
+#endif
+
+#ifndef VBATT_DIV2_PORT                         
+#define VBATT_DIV2_PORT                          gpioPortD
+#endif
+#ifndef VBATT_DIV2_PIN                          
+#define VBATT_DIV2_PIN                           2
+#endif
+
+#ifndef TEMP_PORT                               
+#define TEMP_PORT                                gpioPortD
+#endif
+#ifndef TEMP_PIN                                
+#define TEMP_PIN                                 3
 #endif
 
 // [CUSTOM_PIN_NAME]$
