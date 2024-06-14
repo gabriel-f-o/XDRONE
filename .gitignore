@@ -9,4 +9,5 @@ Hardware/History/*
 Hardware/Project Outputs for XDRONE/**
 Hardware/Project Logs for XDRONE/**
 
-Firmware/XDRONE_cmake/build/CMakeFiles/** */
+Firmware/XDRONE_cmake/**
+!Firmware/XDRONE_cmake/build/default_config
