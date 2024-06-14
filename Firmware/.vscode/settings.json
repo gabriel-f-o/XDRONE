@@ -3,6 +3,10 @@
         "em_cmu.h": "c",
         "stdio.h": "c",
         "sl_assert.h": "c",
-        "em_device.h": "c"
-    }
+        "em_device.h": "c",
+        "sl_system_init.h": "c",
+        "sl_component_catalog.h": "c",
+        "pin_config.h": "c"
+    },
+    "cmake.sourceDirectory": "C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake"
 }

@@ -33,6 +33,7 @@ component:
 - {id: device_init_dpll}
 - {id: device_init_hfxo}
 - {id: device_init_lfxo}
+- {id: emlib_timer}
 - instance: [iouart]
   id: iostream_usart
 - {id: iostream_usart_core}
