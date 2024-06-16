@@ -10,7 +10,7 @@
 #define LED_GREEN_CH        1
 #define LED_BLUE_CH         2
 
-#define LED_PWM_FREQ_HW     100000
+#define LED_PWM_FREQ_HZ     100000
 
 /**********************************************
  * PRIVATE VARIABLES
@@ -160,7 +160,7 @@ void led_init(void)
     TIMER_InitCC_TypeDef timerCCInit = TIMER_INITCC_DEFAULT;
 
     timerInit.enable = false;
-    timerInit.prescale = CMU_ClockFreqGet(cmuClock_TIMER2) / LED_PWM_FREQ_HW - 1;
+    timerInit.prescale = CMU_ClockFreqGet(cmuClock_TIMER2) / LED_PWM_FREQ_HZ - 1;
     timerCCInit.mode = timerCCModePWM;
 
     /* Init timer

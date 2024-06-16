@@ -75,9 +75,41 @@
 // [GPIO]$
 
 // $[TIMER0]
+// TIMER0 CC0 on PC06
+#ifndef TIMER0_CC0_PORT                         
+#define TIMER0_CC0_PORT                          gpioPortC
+#endif
+#ifndef TIMER0_CC0_PIN                          
+#define TIMER0_CC0_PIN                           6
+#endif
+
+// TIMER0 CC1 on PC07
+#ifndef TIMER0_CC1_PORT                         
+#define TIMER0_CC1_PORT                          gpioPortC
+#endif
+#ifndef TIMER0_CC1_PIN                          
+#define TIMER0_CC1_PIN                           7
+#endif
+
 // [TIMER0]$
 
 // $[TIMER1]
+// TIMER1 CC0 on PC08
+#ifndef TIMER1_CC0_PORT                         
+#define TIMER1_CC0_PORT                          gpioPortC
+#endif
+#ifndef TIMER1_CC0_PIN                          
+#define TIMER1_CC0_PIN                           8
+#endif
+
+// TIMER1 CC1 on PC09
+#ifndef TIMER1_CC1_PORT                         
+#define TIMER1_CC1_PORT                          gpioPortC
+#endif
+#ifndef TIMER1_CC1_PIN                          
+#define TIMER1_CC1_PIN                           9
+#endif
+
 // [TIMER1]$
 
 // $[TIMER2]
@@ -221,6 +253,34 @@
 #endif
 #ifndef LED_BLUE_PIN                            
 #define LED_BLUE_PIN                             10
+#endif
+
+#ifndef MOTOR_UP_LEFT_PORT                      
+#define MOTOR_UP_LEFT_PORT                       gpioPortC
+#endif
+#ifndef MOTOR_UP_LEFT_PIN                       
+#define MOTOR_UP_LEFT_PIN                        6
+#endif
+
+#ifndef MOTOR_DOWN_LEFT_PORT                    
+#define MOTOR_DOWN_LEFT_PORT                     gpioPortC
+#endif
+#ifndef MOTOR_DOWN_LEFT_PIN                     
+#define MOTOR_DOWN_LEFT_PIN                      7
+#endif
+
+#ifndef MOTOR_DOWN_RIGHT_PORT                   
+#define MOTOR_DOWN_RIGHT_PORT                    gpioPortC
+#endif
+#ifndef MOTOR_DOWN_RIGHT_PIN                    
+#define MOTOR_DOWN_RIGHT_PIN                     8
+#endif
+
+#ifndef MOTOR_UP_RIGHT_PORT                     
+#define MOTOR_UP_RIGHT_PORT                      gpioPortC
+#endif
+#ifndef MOTOR_UP_RIGHT_PIN                      
+#define MOTOR_UP_RIGHT_PIN                       9
 #endif
 
 // [CUSTOM_PIN_NAME]$

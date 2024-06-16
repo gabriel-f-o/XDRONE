@@ -28,6 +28,7 @@
 
 #include "XDRONE/00_Common/inc/common.h"
 #include "XDRONE/01_Drivers/inc/led.h"
+#include "XDRONE/01_Drivers/inc/motor.h"
 
 int main(void)
 {
@@ -41,6 +42,8 @@ int main(void)
   app_init();
 
   led_init();
+
+  motor_init();
 
   cli_init();
 

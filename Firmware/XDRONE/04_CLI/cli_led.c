@@ -103,10 +103,10 @@ static const sl_cli_command_info_t led_print =
 
 
 static sl_cli_command_entry_t cli_led_table[] = {
-     {"state", &led_state, false},
-     {"intensity", &led_intensity, false},
-     {"rgb", &led_rgb, false},
-     {"p_all", &led_print, false},
+     {"state",      &led_state,         false},
+     {"intensity",  &led_intensity,     false},
+     {"rgb",        &led_rgb,           false},
+     {"p_all",      &led_print,         false},
      {NULL, NULL, false},
  };
 

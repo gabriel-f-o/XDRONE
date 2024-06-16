@@ -9,8 +9,20 @@
     <property object="PA08" propertyId="pin.name" value="LED_RED"/>
     <property object="PA09" propertyId="pin.name" value="LED_GREEN"/>
     <property object="PA10" propertyId="pin.name" value="LED_BLUE"/>
+    <property object="PC06" propertyId="pin.name" value="MOTOR_UP_LEFT"/>
+    <property object="PC07" propertyId="pin.name" value="MOTOR_DOWN_LEFT"/>
+    <property object="PC08" propertyId="pin.name" value="MOTOR_DOWN_RIGHT"/>
+    <property object="PC09" propertyId="pin.name" value="MOTOR_UP_RIGHT"/>
     <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_i" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_o" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc1" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc0" value="38"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc1" value="39"/>
+    <property object="PORTIO" propertyId="portio.timer1.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer1.enable.cc1" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer1.location.cc0" value="40"/>
+    <property object="PORTIO" propertyId="portio.timer1.location.cc1" value="41"/>
     <property object="PORTIO" propertyId="portio.timer2.enable.cc0" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.timer2.enable.cc1" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.timer2.enable.cc2" value="Enabled"/>

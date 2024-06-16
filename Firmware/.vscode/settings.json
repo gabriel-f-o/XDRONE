@@ -5,6 +5,7 @@
         "common.h": "c",
         "sl_cli_handles.h": "c",
         "sl_system_process_action.h": "c",
-        "cli.h": "c"
+        "cli.h": "c",
+        "motor.h": "c"
     }
 }
