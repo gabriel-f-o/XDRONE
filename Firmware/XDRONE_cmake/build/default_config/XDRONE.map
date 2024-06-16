@@ -1199,8 +1199,6 @@ Discarded input sections
                 0x00000000        0x2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .text.os_task_on_block_cb
                 0x00000000        0x2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .text.os_idle_task_fn
-                0x00000000        0x2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_macro   0x00000000      0xacc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_macro   0x00000000       0x10 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_macro   0x00000000       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
@@ -1231,7 +1229,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
@@ -1324,10 +1322,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .debug_line    0x00000000      0x975 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
- .debug_str     0x00000000     0x8639 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
+ .debug_str     0x00000000     0x8945 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .comment       0x00000000       0x46 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .debug_frame   0x00000000       0xe0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Event.c.obj
  .ARM.attributes
@@ -1401,7 +1399,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
@@ -1474,7 +1472,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
@@ -1566,10 +1564,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .debug_line    0x00000000      0x82e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
- .debug_str     0x00000000     0x85de CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
+ .debug_str     0x00000000     0x88ea CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .comment       0x00000000       0x46 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .debug_frame   0x00000000       0xb8 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_MsgQ.c.obj
  .ARM.attributes
@@ -1662,10 +1660,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .debug_line    0x00000000      0x879 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
- .debug_str     0x00000000     0x875e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
+ .debug_str     0x00000000     0x8a6a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Mutex.c.obj
  .ARM.attributes
@@ -1753,7 +1751,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
@@ -1824,7 +1822,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
@@ -1914,10 +1912,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .debug_line    0x00000000      0x85a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
- .debug_str     0x00000000     0x85b1 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
+ .debug_str     0x00000000     0x88bd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .comment       0x00000000       0x46 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .debug_frame   0x00000000       0xac CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Sem.c.obj
  .ARM.attributes
@@ -1991,7 +1989,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .debug_macro   0x00000000       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
@@ -2059,7 +2057,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_macro   0x00000000       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
  .group         0x00000000        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
@@ -3083,7 +3081,7 @@ END GROUP
 LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtend.o
 LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtn.o
 
-.text           0x08000000     0x82e4
+.text           0x08000000     0x82e0
                 0x08000000                linker_vectors_begin = .
  *(.vectors)
  .vectors       0x08000000      0x17c CMakeFiles/slc_XDRONE.dir/default_config/b5bb5260dacc7379f80b8d14ba2fd242/Firmware/gecko_sdk_4.4.3/platform/Device/SiliconLabs/EFR32FG28/Source/startup_efr32fg28.c.obj
@@ -3384,55 +3382,52 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2
  .text.USART0_RX_IRQHandler
                 0x08003cd8        0xc CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
                 0x08003cd8                USART0_RX_IRQHandler
- .text.os_idle_task_fn
-                0x08003ce4       0x10 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
-                0x08003ce4                os_idle_task_fn
  .text.startup.main
-                0x08003cf4       0xac CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
-                0x08003cf4                main
+                0x08003ce4       0xac CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+                0x08003ce4                main
  .text.TIMER_CompareSet.constprop.0
-                0x08003da0       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003d90       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .text.led_getIntesity
-                0x08003dc8        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003dc8                led_getIntesity
+                0x08003db8        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003db8                led_getIntesity
  .text.led_getState
-                0x08003dd4        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003dd4                led_getState
+                0x08003dc4        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003dc4                led_getState
  .text.led_getRGB
-                0x08003de0       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003de0                led_getRGB
+                0x08003dd0       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003dd0                led_getRGB
  .text.led_setRGB
-                0x08003e08       0x70 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003e08                led_setRGB
+                0x08003df8       0x70 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003df8                led_setRGB
  .text.led_setIntesity
-                0x08003e78       0x24 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003e78                led_setIntesity
+                0x08003e68       0x24 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003e68                led_setIntesity
  .text.led_setState
-                0x08003e9c       0x24 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003e9c                led_setState
+                0x08003e8c       0x24 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003e8c                led_setState
  .text.led_init
-                0x08003ec0      0x128 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
-                0x08003ec0                led_init
+                0x08003eb0      0x128 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08003eb0                led_init
  .text.TIMER_MaxCount
-                0x08003fe8       0x4c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x08003fd8       0x4c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .text.TIMER_CompareSet
-                0x08004034       0x38 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x08004024       0x38 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .text.TIMER_TopSet.constprop.0
-                0x0800406c       0x34 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x0800405c       0x34 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .text.motor_setPower
-                0x080040a0       0x30 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
-                0x080040a0                motor_setPower
+                0x08004090       0x30 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x08004090                motor_setPower
  .text.motor_getPower
-                0x080040d0       0x54 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
-                0x080040d0                motor_getPower
+                0x080040c0       0x54 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x080040c0                motor_getPower
  .text.motor_init
-                0x08004124      0x130 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
-                0x08004124                motor_init
+                0x08004114      0x130 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x08004114                motor_init
  .text.os_init_get
-                0x08004254        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
-                0x08004254                os_init_get
- .text.os_init  0x08004260       0xbc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
-                0x08004260                os_init
+                0x08004244        0xc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+                0x08004244                os_init_get
+ .text.os_init  0x08004250       0xcc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+                0x08004250                os_init
  .text.os_heap_BlockGetSize
                 0x0800431c       0x14 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .text.os_heap_clear
@@ -3904,65 +3899,68 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2
  .text.SysTick_Handler
                 0x08006f62        0x6 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
                 0x08006f62                SysTick_Handler
- .text.os_no_task_ready_cb
+ .text.os_idle_task_fn
                 0x08006f68        0x2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
-                0x08006f68                os_no_task_ready_cb
- .text.os_insufficient_heap_cb
+                0x08006f68                os_idle_task_fn
+ .text.os_no_task_ready_cb
                 0x08006f6a        0x2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
-                0x08006f6a                os_insufficient_heap_cb
+                0x08006f6a                os_no_task_ready_cb
+ .text.os_insufficient_heap_cb
+                0x08006f6c        0x2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+                0x08006f6c                os_insufficient_heap_cb
  .text.os_obj_updatePrio
-                0x08006f6c       0xaa CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x08006f6c                os_obj_updatePrio
+                0x08006f6e       0xaa CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08006f6e                os_obj_updatePrio
  .text.os_list_init
-                0x08007016       0x1a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x08007016                os_list_init
+                0x08007018       0x1a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08007018                os_list_init
  .text.os_list_search
-                0x08007030       0x2e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x08007030                os_list_search
+                0x08007032       0x2e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08007032                os_list_search
  .text.os_list_add
-                0x0800705e       0x74 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x0800705e                os_list_add
+                0x08007060       0x74 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08007060                os_list_add
  .text.os_list_remove
-                0x080070d2       0x8c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x080070d2                os_list_remove
+                0x080070d4       0x8c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x080070d4                os_list_remove
  .text.os_list_clear
-                0x0800715e       0x34 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x0800715e                os_list_clear
+                0x08007160       0x34 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08007160                os_list_clear
  .text.os_task_list_sort
-                0x08007192       0x8e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x08007192                os_task_list_sort
+                0x08007194       0x8e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08007194                os_task_list_sort
  .text.os_task_list_isObjFreeOnTask
-                0x08007220       0xce CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                0x08007220                os_task_list_isObjFreeOnTask
+                0x08007222       0xce CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x08007222                os_task_list_isObjFreeOnTask
  .text.PendSV_Handler
-                0x080072ee       0x38 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
-                0x080072ee                PendSV_Handler
+                0x080072f0       0x38 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+                0x080072f0                PendSV_Handler
  .text.os_task_objTake
-                0x08007326        0x4 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                0x08007328        0x4 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .text.os_task_yeild
-                0x0800732a       0x12 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
-                0x0800732a                os_task_yeild
+                0x0800732c       0x12 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                0x0800732c                os_task_yeild
  .text.os_task_getPrio
-                0x0800733c       0x14 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
-                0x0800733c                os_task_getPrio
+                0x0800733e       0x14 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                0x0800733e                os_task_getPrio
  .text.os_task_getFreeCount
-                0x08007350       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .text.memmove  0x08007372       0x34 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memmove.o)
-                0x08007372                memmove
- .text.memset   0x080073a6       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
-                0x080073a6                memset
- .text.strncmp  0x080073b6       0x24 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strncmp.o)
-                0x080073b6                strncmp
- .text          0x080073da       0x14 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcmp.o)
-                0x080073da                strcmp
- .text.strcpy   0x080073ee       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcpy.o)
-                0x080073ee                strcpy
- .text.memcpy   0x080073fe       0x1a c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
-                0x080073fe                memcpy
- .text          0x08007418       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
-                0x08007418                strlen
+                0x08007352       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .text.memmove  0x08007374       0x34 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memmove.o)
+                0x08007374                memmove
+ .text.memset   0x080073a8       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+                0x080073a8                memset
+ .text.strncmp  0x080073b8       0x24 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strncmp.o)
+                0x080073b8                strncmp
+ .text          0x080073dc       0x14 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcmp.o)
+                0x080073dc                strcmp
+ .text.strcpy   0x080073f0       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcpy.o)
+                0x080073f0                strcpy
+ .text.memcpy   0x08007400       0x1a c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+                0x08007400                memcpy
+ .text          0x0800741a       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
+                0x0800741a                strlen
                 0x08007440                . = ALIGN (0x20)
- *fill*         0x08007428       0x18 
+ *fill*         0x0800742a       0x16 
                 0x08007440                linker_code_end = .
  *(.init)
  .init          0x08007440        0x4 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crti.o
@@ -4053,120 +4051,117 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2
                 0x08007b24       0x65 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
  *fill*         0x08007b89        0x3 
  .rodata        0x08007b8c       0x1c CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
- .rodata.os_idle_task_fn.str1.1
-                0x08007ba8        0x2 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
  .rodata.main.str1.1
-                0x08007baa       0x7a CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+                0x08007ba8       0x7a CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
                                  0x7c (size before relaxing)
  .rodata.TIMER_CompareSet.constprop.0.str1.1
-                0x08007c24       0x68 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x08007c22       0x68 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .rodata.TIMER_MaxCount.str1.1
-                0x08007c8c       0x68 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x08007c8a       0x68 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .rodata.motor_getPower.str1.1
-                0x08007c8c       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x08007c8a       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .rodata.cli_panic.str1.1
-                0x08007ce4       0x25 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+                0x08007ce2       0x25 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
  .rodata.str1.1
-                0x08007d09       0x11 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+                0x08007d07       0x11 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
                                  0x13 (size before relaxing)
- *fill*         0x08007d1a        0x2 
- .rodata.panic  0x08007d1c        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .rodata.panic  0x08007d18        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
  .rodata.cli_led_print.str1.1
-                0x08007d29      0x146 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+                0x08007d25      0x146 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
                                 0x148 (size before relaxing)
  .rodata.str1.1
-                0x08007e6f       0x7d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+                0x08007e6b       0x7d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
                                  0x84 (size before relaxing)
  .rodata.led_print
-                0x08007eec        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- *fill*         0x08007ef9        0x3 
+                0x08007ee8        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ *fill*         0x08007ef5        0x3 
  .rodata.led_rgb
-                0x08007efc       0x10 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+                0x08007ef8       0x10 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
  .rodata.led_intensity
-                0x08007f0c        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- *fill*         0x08007f1a        0x2 
+                0x08007f08        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ *fill*         0x08007f16        0x2 
  .rodata.led_state
-                0x08007f1c        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- *fill*         0x08007f2a        0x2 
+                0x08007f18        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ *fill*         0x08007f26        0x2 
  .rodata.cli_led_group
-                0x08007f2c        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+                0x08007f28        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
  .rodata.cli_motor_print.str1.1
-                0x08007f39      0x140 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+                0x08007f35      0x140 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
                                 0x142 (size before relaxing)
  .rodata.str1.1
-                0x08008079       0xf7 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+                0x08008075       0xf7 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
                                 0x102 (size before relaxing)
  .rodata.motor_print
-                0x08008170        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- *fill*         0x0800817d        0x3 
+                0x0800816c        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ *fill*         0x08008179        0x3 
  .rodata.motorAll_pwm
-                0x08008180       0x11 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- *fill*         0x08008191        0x3 
+                0x0800817c       0x11 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ *fill*         0x0800818d        0x3 
  .rodata.motorDR_pwm
-                0x08008194        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- *fill*         0x080081a2        0x2 
+                0x08008190        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ *fill*         0x0800819e        0x2 
  .rodata.motorDL_pwm
-                0x080081a4        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- *fill*         0x080081b2        0x2 
+                0x080081a0        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ *fill*         0x080081ae        0x2 
  .rodata.motorUR_pwm
-                0x080081b4        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- *fill*         0x080081c2        0x2 
+                0x080081b0        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ *fill*         0x080081be        0x2 
  .rodata.motorUL_pwm
-                0x080081c4        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- *fill*         0x080081d2        0x2 
+                0x080081c0        0xe CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ *fill*         0x080081ce        0x2 
  .rodata.cli_motor_group
-                0x080081d4        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+                0x080081d0        0xd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
  .rodata._ctype_
-                0x080081e1      0x101 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-ctype_.o)
-                0x080081e1                _ctype_
+                0x080081dd      0x101 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-ctype_.o)
+                0x080081dd                _ctype_
  *(.eh_frame*)
- *fill*         0x080082e2        0x2 
- .eh_frame      0x080082e4        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ *fill*         0x080082de        0x2 
+ .eh_frame      0x080082e0        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.glue_7         0x080082e4        0x0
- .glue_7        0x080082e4        0x0 linker stubs
+.glue_7         0x080082e0        0x0
+ .glue_7        0x080082e0        0x0 linker stubs
 
-.glue_7t        0x080082e4        0x0
- .glue_7t       0x080082e4        0x0 linker stubs
+.glue_7t        0x080082e0        0x0
+ .glue_7t       0x080082e0        0x0 linker stubs
 
-.vfp11_veneer   0x080082e4        0x0
- .vfp11_veneer  0x080082e4        0x0 linker stubs
+.vfp11_veneer   0x080082e0        0x0
+ .vfp11_veneer  0x080082e0        0x0 linker stubs
 
-.v4_bx          0x080082e4        0x0
- .v4_bx         0x080082e4        0x0 linker stubs
+.v4_bx          0x080082e0        0x0
+ .v4_bx         0x080082e0        0x0 linker stubs
 
-.iplt           0x080082e4        0x0
- .iplt          0x080082e4        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.iplt           0x080082e0        0x0
+ .iplt          0x080082e0        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080082e4                __exidx_start = .
+                0x080082e0                __exidx_start = .
 
-.ARM.exidx      0x080082e4        0x8
+.ARM.exidx      0x080082e0        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x080082e4        0x8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crt0.o
+ .ARM.exidx     0x080082e0        0x8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crt0.o
                                  0x10 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x080082ec        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x080082e8        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x080082ec                __exidx_end = .
+                0x080082e8                __exidx_end = .
 
-.rel.dyn        0x080082ec        0x0
- .rel.iplt      0x080082ec        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.rel.dyn        0x080082e8        0x0
+ .rel.iplt      0x080082e8        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.copy.table     0x080082ec        0xc
-                0x080082ec                . = ALIGN (0x4)
-                0x080082ec                __copy_table_start__ = .
-                0x080082ec        0x4 LONG 0x80082f8 __etext
-                0x080082f0        0x4 LONG 0x20001000 __data_start__
-                0x080082f4        0x4 LONG 0x5e ((__data_end__ - __data_start__) / 0x4)
-                0x080082f8                __copy_table_end__ = .
+.copy.table     0x080082e8        0xc
+                0x080082e8                . = ALIGN (0x4)
+                0x080082e8                __copy_table_start__ = .
+                0x080082e8        0x4 LONG 0x80082f4 __etext
+                0x080082ec        0x4 LONG 0x20001000 __data_start__
+                0x080082f0        0x4 LONG 0x5e ((__data_end__ - __data_start__) / 0x4)
+                0x080082f4                __copy_table_end__ = .
 
-.zero.table     0x080082f8        0x0
-                0x080082f8                . = ALIGN (0x4)
-                0x080082f8                __zero_table_start__ = .
-                0x080082f8                __zero_table_end__ = .
-                0x080082f8                __etext = .
+.zero.table     0x080082f4        0x0
+                0x080082f4                . = ALIGN (0x4)
+                0x080082f4                __zero_table_start__ = .
+                0x080082f4                __zero_table_end__ = .
+                0x080082f4                __etext = .
                 0x20000000                . = ORIGIN (RAM)
 
 .stack          0x20000000     0x1000
@@ -4180,7 +4175,7 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2
 .noinit
  *(.noinit*)
 
-.data           0x20001000      0x178 load address 0x080082f8
+.data           0x20001000      0x178 load address 0x080082f4
                 0x20001000                . = ALIGN (0x4)
                 0x20001000                __data_start__ = .
  *(vtable)
@@ -4253,16 +4248,16 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2
                 0x20001178                __data_end__ = .
 
 .tm_clone_table
-                0x20001178        0x0 load address 0x08008470
+                0x20001178        0x0 load address 0x0800846c
  .tm_clone_table
                 0x20001178        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  .tm_clone_table
                 0x20001178        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtend.o
 
-.igot.plt       0x20001178        0x0 load address 0x08008470
+.igot.plt       0x20001178        0x0 load address 0x0800846c
  .igot.plt      0x20001178        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.bss            0x20001178    0x14678 load address 0x08008470
+.bss            0x20001178    0x14678 load address 0x0800846c
                 0x20001178                . = ALIGN (0x4)
                 0x20001178                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(.bss*))
@@ -4330,11 +4325,11 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2
                 0x200157f0                __bss_end__ = .
                 0x200157f0                __ramfuncs_start__ = .
                 0x200157f0                __vma_ramfuncs_start__ = .
-                0x08008470                __lma_ramfuncs_start__ = (__etext + SIZEOF (.data))
+                0x0800846c                __lma_ramfuncs_start__ = (__etext + SIZEOF (.data))
                 0x00000000                __text_application_ram_offset__ = (. - __vma_ramfuncs_start__)
 
 text_application_ram
-                0x200157f0        0x0 load address 0x08008470
+                0x200157f0        0x0 load address 0x0800846c
                 0x200157f0                . = ALIGN (0x4)
                 0x200157f0                __text_application_ram_start__ = .
  *(text_application_ram)
@@ -4342,7 +4337,7 @@ text_application_ram
                 0x200157f0                __text_application_ram_end__ = .
                 0x200157f0                . = ALIGN (0x4)
                 0x200157f0                __vma_ramfuncs_end__ = .
-                0x08008470                __lma_ramfuncs_end__ = ((__lma_ramfuncs_start__ + __text_application_ram_offset__) + SIZEOF (text_application_ram))
+                0x0800846c                __lma_ramfuncs_end__ = ((__lma_ramfuncs_start__ + __text_application_ram_offset__) + SIZEOF (text_application_ram))
                 0x200157f0                __ramfuncs_end__ = .
 
 .heap           0x200157f0      0x800
@@ -4621,7 +4616,7 @@ LOAD linker stubs
                 0x000002bb       0x13 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
                                  0xef (size before relaxing)
 
-.debug_info     0x00000000    0x39862
+.debug_info     0x00000000    0x3980e
  .debug_info    0x00000000       0x7d CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_info    0x0000007d      0x3af CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_slist.c.obj
  .debug_info    0x0000042c      0x454 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_string.c.obj
@@ -4660,22 +4655,22 @@ LOAD linker stubs
  .debug_info    0x0002b6f2      0xbb6 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_device_init_clocks.c.obj
  .debug_info    0x0002c2a8      0x1e4 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_event_handler.c.obj
  .debug_info    0x0002c48c     0x1587 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
- .debug_info    0x0002da13      0x6ad CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
- .debug_info    0x0002e0c0     0x26c9 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
- .debug_info    0x00030789     0x2894 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
- .debug_info    0x0003301d      0xa6d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_info    0x00033a8a      0x267 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_info    0x00033cf1      0x5d0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
- .debug_info    0x000342c1      0xefd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
- .debug_info    0x000351be      0xf16 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
- .debug_info    0x000360d4      0x76e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
- .debug_info    0x00036842     0x1163 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .debug_info    0x000379a5      0x57f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_info    0x00037f24      0x661 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_info    0x00038585      0x8cb CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- .debug_info    0x00038e50      0xa12 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ .debug_info    0x0002da13      0x659 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+ .debug_info    0x0002e06c     0x26c9 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+ .debug_info    0x00030735     0x2894 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+ .debug_info    0x00032fc9      0xa6d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+ .debug_info    0x00033a36      0x267 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_info    0x00033c9d      0x5d0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+ .debug_info    0x0003426d      0xefd CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+ .debug_info    0x0003516a      0xf16 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+ .debug_info    0x00036080      0x76e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+ .debug_info    0x000367ee     0x1163 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .debug_info    0x00037951      0x57f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_info    0x00037ed0      0x661 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_info    0x00038531      0x8cb CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ .debug_info    0x00038dfc      0xa12 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
 
-.debug_abbrev   0x00000000     0x7fb3
+.debug_abbrev   0x00000000     0x7f95
  .debug_abbrev  0x00000000       0x6a CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_abbrev  0x0000006a      0x162 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_slist.c.obj
  .debug_abbrev  0x000001cc      0x221 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_string.c.obj
@@ -4714,23 +4709,23 @@ LOAD linker stubs
  .debug_abbrev  0x00005581      0x105 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_device_init_clocks.c.obj
  .debug_abbrev  0x00005686      0x112 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_event_handler.c.obj
  .debug_abbrev  0x00005798      0x27c CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
- .debug_abbrev  0x00005a14      0x218 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
- .debug_abbrev  0x00005c2c      0x356 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
- .debug_abbrev  0x00005f82      0x3ec CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
- .debug_abbrev  0x0000636e      0x299 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_abbrev  0x00006607      0x155 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_abbrev  0x0000675c      0x2f9 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
- .debug_abbrev  0x00006a55      0x363 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
- .debug_abbrev  0x00006db8      0x32d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
- .debug_abbrev  0x000070e5      0x28f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
- .debug_abbrev  0x00007374      0x49c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .debug_abbrev  0x00007810      0x1aa CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_abbrev  0x000079ba      0x1ef CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_abbrev  0x00007ba9      0x22a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- .debug_abbrev  0x00007dd3      0x1e0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ .debug_abbrev  0x00005a14      0x1fa CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+ .debug_abbrev  0x00005c0e      0x356 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+ .debug_abbrev  0x00005f64      0x3ec CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+ .debug_abbrev  0x00006350      0x299 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+ .debug_abbrev  0x000065e9      0x155 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_abbrev  0x0000673e      0x2f9 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+ .debug_abbrev  0x00006a37      0x363 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+ .debug_abbrev  0x00006d9a      0x32d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+ .debug_abbrev  0x000070c7      0x28f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+ .debug_abbrev  0x00007356      0x49c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .debug_abbrev  0x000077f2      0x1aa CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_abbrev  0x0000799c      0x1ef CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_abbrev  0x00007b8b      0x22a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ .debug_abbrev  0x00007db5      0x1e0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
 
 .debug_loclists
-                0x00000000     0xc067
+                0x00000000     0xc02d
  .debug_loclists
                 0x00000000       0x22 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_loclists
@@ -4790,35 +4785,33 @@ LOAD linker stubs
  .debug_loclists
                 0x0000a0db       0x53 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
  .debug_loclists
-                0x0000a12e       0x3a CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+                0x0000a12e      0x169 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .debug_loclists
-                0x0000a168      0x169 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x0000a297      0x22b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .debug_loclists
-                0x0000a2d1      0x22b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x0000a4c2       0xaa CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
  .debug_loclists
-                0x0000a4fc       0xaa CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+                0x0000a56c       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_loclists
-                0x0000a5a6       0x22 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+                0x0000a58e      0x376 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .debug_loclists
-                0x0000a5c8      0x376 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+                0x0000a904      0x785 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .debug_loclists
-                0x0000a93e      0x785 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x0000b089      0x64f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .debug_loclists
-                0x0000b0c3      0x64f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+                0x0000b6d8       0xe2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .debug_loclists
-                0x0000b712       0xe2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+                0x0000b7ba      0x636 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .debug_loclists
-                0x0000b7f4      0x636 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                0x0000bdf0       0x86 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .debug_loclists
-                0x0000be2a       0x86 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+                0x0000be76       0x23 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
  .debug_loclists
-                0x0000beb0       0x23 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+                0x0000be99       0xf5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
  .debug_loclists
-                0x0000bed3       0xf5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- .debug_loclists
-                0x0000bfc8       0x9f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+                0x0000bf8e       0x9f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
 
-.debug_aranges  0x00000000     0x1230
+.debug_aranges  0x00000000     0x1228
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_aranges
@@ -4896,36 +4889,36 @@ LOAD linker stubs
  .debug_aranges
                 0x00000e10       0x38 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
  .debug_aranges
-                0x00000e48       0x30 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+                0x00000e48       0x28 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
  .debug_aranges
-                0x00000e78       0x60 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x00000e70       0x60 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .debug_aranges
-                0x00000ed8       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x00000ed0       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .debug_aranges
-                0x00000f20       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+                0x00000f18       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
  .debug_aranges
-                0x00000f48       0x40 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+                0x00000f40       0x40 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_aranges
-                0x00000f88       0x40 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+                0x00000f80       0x40 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .debug_aranges
-                0x00000fc8       0x78 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x00000fc0       0x78 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .debug_aranges
-                0x00001040       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+                0x00001038       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .debug_aranges
-                0x00001098       0x40 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+                0x00001090       0x40 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .debug_aranges
-                0x000010d8       0x88 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                0x000010d0       0x88 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .debug_aranges
-                0x00001160       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+                0x00001158       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .debug_aranges
-                0x00001188       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+                0x00001180       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
  .debug_aranges
-                0x000011b0       0x38 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+                0x000011a8       0x38 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
  .debug_aranges
-                0x000011e8       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+                0x000011e0       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
 
 .debug_rnglists
-                0x00000000     0x1668
+                0x00000000     0x1662
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_rnglists
@@ -5001,35 +4994,35 @@ LOAD linker stubs
  .debug_rnglists
                 0x000010c0       0x26 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
  .debug_rnglists
-                0x000010e6       0x20 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+                0x000010e6       0x1a CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
  .debug_rnglists
-                0x00001106       0x50 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+                0x00001100       0x50 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .debug_rnglists
-                0x00001156       0x59 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+                0x00001150       0x59 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
  .debug_rnglists
-                0x000011af       0x1a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+                0x000011a9       0x1a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
  .debug_rnglists
-                0x000011c9       0x2b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+                0x000011c3       0x2b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
  .debug_rnglists
-                0x000011f4       0x4d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+                0x000011ee       0x4d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
  .debug_rnglists
-                0x00001241      0x151 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                0x0000123b      0x151 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
  .debug_rnglists
-                0x00001392      0x13d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+                0x0000138c      0x13d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
  .debug_rnglists
-                0x000014cf       0x6b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+                0x000014c9       0x6b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
  .debug_rnglists
-                0x0000153a       0xa2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                0x00001534       0xa2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
  .debug_rnglists
-                0x000015dc       0x1a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+                0x000015d6       0x1a CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
  .debug_rnglists
-                0x000015f6       0x19 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+                0x000015f0       0x19 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
  .debug_rnglists
-                0x0000160f       0x26 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+                0x00001609       0x26 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
  .debug_rnglists
-                0x00001635       0x33 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+                0x0000162f       0x33 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
 
-.debug_line     0x00000000    0x1c9a5
+.debug_line     0x00000000    0x1c968
  .debug_line    0x00000000       0xb9 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_line    0x000000b9      0x380 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_slist.c.obj
  .debug_line    0x00000439      0x51e CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_string.c.obj
@@ -5068,22 +5061,22 @@ LOAD linker stubs
  .debug_line    0x00011349      0x320 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_device_init_clocks.c.obj
  .debug_line    0x00011669      0x455 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_event_handler.c.obj
  .debug_line    0x00011abe      0x5c4 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
- .debug_line    0x00012082      0x4e7 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
- .debug_line    0x00012569      0xf8c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
- .debug_line    0x000134f5      0xf18 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
- .debug_line    0x0001440d      0xdba CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_line    0x000151c7      0x5a3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_line    0x0001576a      0x913 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
- .debug_line    0x0001607d     0x1090 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
- .debug_line    0x0001710d      0xdc9 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
- .debug_line    0x00017ed6      0x82e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
- .debug_line    0x00018704      0xfb8 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .debug_line    0x000196bc      0x6a5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_line    0x00019d61      0xe4c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_line    0x0001abad      0xed0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- .debug_line    0x0001ba7d      0xf28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ .debug_line    0x00012082      0x4b2 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+ .debug_line    0x00012534      0xf8c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+ .debug_line    0x000134c0      0xf18 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+ .debug_line    0x000143d8      0xdb2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+ .debug_line    0x0001518a      0x5a3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_line    0x0001572d      0x913 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+ .debug_line    0x00016040     0x1090 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+ .debug_line    0x000170d0      0xdc9 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+ .debug_line    0x00017e99      0x82e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+ .debug_line    0x000186c7      0xfb8 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .debug_line    0x0001967f      0x6a5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_line    0x00019d24      0xe4c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_line    0x0001ab70      0xed0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ .debug_line    0x0001ba40      0xf28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
 
-.debug_str      0x00000000   0x123b24
+.debug_str      0x00000000   0x123e30
  .debug_str     0x00000000      0x1ae CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
                                 0x1b8 (size before relaxing)
  .debug_str     0x000001ae      0x131 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_slist.c.obj
@@ -5160,36 +5153,36 @@ LOAD linker stubs
                                 0x3cf (size before relaxing)
  .debug_str     0x0000c4aa      0x773 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
                                0x1db7 (size before relaxing)
- .debug_str     0x0000cc1d      0x18b CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
-                                0x88b (size before relaxing)
- .debug_str     0x0000cda8   0x114220 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+ .debug_str     0x0000cc1d      0x17b CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+                                0x871 (size before relaxing)
+ .debug_str     0x0000cd98   0x114220 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
                              0x11696b (size before relaxing)
- .debug_str     0x00120fc8      0x10d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+ .debug_str     0x00120fb8      0x10d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
                              0x1167c0 (size before relaxing)
- .debug_str     0x001210d5     0x1161 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
-                             0x115706 (size before relaxing)
- .debug_str     0x00122236       0xba CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
-                               0x82cd (size before relaxing)
- .debug_str     0x001222f0      0x1c4 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
-                               0x83ab (size before relaxing)
- .debug_str     0x001224b4      0x438 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
-                               0x8716 (size before relaxing)
- .debug_str     0x001228ec      0x1bb CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
-                               0x8760 (size before relaxing)
- .debug_str     0x00122aa7      0x112 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
-                               0x8698 (size before relaxing)
- .debug_str     0x00122bb9      0x174 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
-                               0x88c4 (size before relaxing)
- .debug_str     0x00122d2d       0x7d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
-                               0x8545 (size before relaxing)
- .debug_str     0x00122daa      0xbcc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_str     0x001210c5     0x147d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+                             0x115a12 (size before relaxing)
+ .debug_str     0x00122542       0xba CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+                               0x85d9 (size before relaxing)
+ .debug_str     0x001225fc      0x1c4 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+                               0x86b7 (size before relaxing)
+ .debug_str     0x001227c0      0x438 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+                               0x8a22 (size before relaxing)
+ .debug_str     0x00122bf8      0x1bb CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+                               0x8a6c (size before relaxing)
+ .debug_str     0x00122db3      0x112 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+                               0x89a4 (size before relaxing)
+ .debug_str     0x00122ec5      0x174 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+                               0x8bd0 (size before relaxing)
+ .debug_str     0x00123039       0x7d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+                               0x8851 (size before relaxing)
+ .debug_str     0x001230b6      0xbcc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
                              0x115949 (size before relaxing)
- .debug_str     0x00123976       0xc3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ .debug_str     0x00123c82       0xc3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
                              0x115aad (size before relaxing)
- .debug_str     0x00123a39       0xeb CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ .debug_str     0x00123d45       0xeb CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
                              0x1159ab (size before relaxing)
 
-.debug_frame    0x00000000     0x3518
+.debug_frame    0x00000000     0x3500
  .debug_frame   0x00000000       0x20 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_assert.c.obj
  .debug_frame   0x00000020       0xc8 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_slist.c.obj
  .debug_frame   0x000000e8       0xb8 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/gecko_sdk_4.4.3/platform/common/src/sl_string.c.obj
@@ -5227,42 +5220,42 @@ LOAD linker stubs
  .debug_frame   0x00002370       0x28 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_device_init_clocks.c.obj
  .debug_frame   0x00002398       0xc8 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_event_handler.c.obj
  .debug_frame   0x00002460       0x70 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/autogen/sl_iostream_init_usart_instances.c.obj
- .debug_frame   0x000024d0       0x50 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
- .debug_frame   0x00002520       0xd4 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
- .debug_frame   0x000025f4       0xa8 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
- .debug_frame   0x0000269c       0x50 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_frame   0x000026ec       0x60 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_frame   0x0000274c       0x9c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
- .debug_frame   0x000027e8      0x1ac CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
- .debug_frame   0x00002994      0x168 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
- .debug_frame   0x00002afc       0x90 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
- .debug_frame   0x00002b8c      0x180 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .debug_frame   0x00002d0c       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_frame   0x00002d54       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_frame   0x00002d9c       0x8c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- .debug_frame   0x00002e28       0xbc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
- .debug_frame   0x00002ee4       0xac c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00002f90       0x50 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00002fe0       0xc4 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x000030a4       0x24 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x000030c8       0x24 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x000030ec       0x2c c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00003118       0x38 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00003150       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
- .debug_frame   0x00003178       0x64 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strtol.o)
- .debug_frame   0x000031dc       0x64 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strtoul.o)
- .debug_frame   0x00003240       0x70 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strtoll.o)
- .debug_frame   0x000032b0      0x144 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x000033f4       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memmove.o)
- .debug_frame   0x0000341c       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x0000343c       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strncmp.o)
- .debug_frame   0x00003464       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-errno.o)
- .debug_frame   0x00003484       0x2c c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x000034b0       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcmp.o)
- .debug_frame   0x000034d0       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcpy.o)
- .debug_frame   0x000034f0       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x000024d0       0x38 CMakeFiles/slc_XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/main.c.obj
+ .debug_frame   0x00002508       0xd4 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
+ .debug_frame   0x000025dc       0xa8 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/motor.c.obj
+ .debug_frame   0x00002684       0x50 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+ .debug_frame   0x000026d4       0x60 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_frame   0x00002734       0x9c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+ .debug_frame   0x000027d0      0x1ac CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+ .debug_frame   0x0000297c      0x168 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+ .debug_frame   0x00002ae4       0x90 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+ .debug_frame   0x00002b74      0x180 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .debug_frame   0x00002cf4       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_frame   0x00002d3c       0x48 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_frame   0x00002d84       0x8c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ .debug_frame   0x00002e10       0xbc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ .debug_frame   0x00002ecc       0xac c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00002f78       0x50 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00002fc8       0xc4 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000308c       0x24 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x000030b0       0x24 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x000030d4       0x2c c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00003100       0x38 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00003138       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00003160       0x64 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strtol.o)
+ .debug_frame   0x000031c4       0x64 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strtoul.o)
+ .debug_frame   0x00003228       0x70 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strtoll.o)
+ .debug_frame   0x00003298      0x144 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x000033dc       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memmove.o)
+ .debug_frame   0x00003404       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00003424       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strncmp.o)
+ .debug_frame   0x0000344c       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x0000346c       0x2c c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x00003498       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcmp.o)
+ .debug_frame   0x000034b8       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strcpy.o)
+ .debug_frame   0x000034d8       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
 
-.debug_macro    0x00000000    0x2deaf
+.debug_macro    0x00000000    0x2deeb
  .debug_macro   0x00000000      0x461 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .debug_macro   0x00000461      0xacc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
  .debug_macro   0x00000f2d       0x10 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/01_Drivers/src/led.c.obj
@@ -5378,28 +5371,28 @@ LOAD linker stubs
  .debug_macro   0x0002aa7e       0x35 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
  .debug_macro   0x0002aab3       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
  .debug_macro   0x0002aadb       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_macro   0x0002ab3f       0xd0 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_macro   0x0002ac0f       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
- .debug_macro   0x0002ac2b      0x19f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_macro   0x0002adca       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_macro   0x0002ae2e       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
- .debug_macro   0x0002ae4a      0x1a5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
- .debug_macro   0x0002afef      0x1c1 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
- .debug_macro   0x0002b1b0      0x1d5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
- .debug_macro   0x0002b385      0x21b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
- .debug_macro   0x0002b5a0      0x207 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
- .debug_macro   0x0002b7a7      0x1c5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_macro   0x0002b96c       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
- .debug_macro   0x0002b994      0x4e3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002be77       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002becf       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002beeb       0x52 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002bf3d       0x1d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002bf5a       0x2e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002bf88       0x16 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002bf9e       0x82 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002c020       0x4f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002c06f     0x139f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002d40e       0xdc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
- .debug_macro   0x0002d4ea      0x4e2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
- .debug_macro   0x0002d9cc      0x4e3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj
+ .debug_macro   0x0002ab3f      0x10c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+ .debug_macro   0x0002ac4b       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS.c.obj
+ .debug_macro   0x0002ac67      0x19f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_macro   0x0002ae06       0x64 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_macro   0x0002ae6a       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Callbacks.c.obj
+ .debug_macro   0x0002ae86      0x1a5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Heap.c.obj
+ .debug_macro   0x0002b02b      0x1c1 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Internal.c.obj
+ .debug_macro   0x0002b1ec      0x1d5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Obj.c.obj
+ .debug_macro   0x0002b3c1      0x21b CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Scheduler.c.obj
+ .debug_macro   0x0002b5dc      0x207 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tasks.c.obj
+ .debug_macro   0x0002b7e3      0x1c5 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_macro   0x0002b9a8       0x28 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/02_Middlewares/OS/src/OS_Tick.c.obj
+ .debug_macro   0x0002b9d0      0x4e3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002beb3       0x58 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002bf0b       0x1c CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002bf27       0x52 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002bf79       0x1d CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002bf96       0x2e CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002bfc4       0x16 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002bfda       0x82 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002c05c       0x4f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002c0ab     0x139f CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002d44a       0xdc CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli.c.obj
+ .debug_macro   0x0002d526      0x4e2 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_led.c.obj
+ .debug_macro   0x0002da08      0x4e3 CMakeFiles/XDRONE.dir/default_config/C_/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE/04_CLI/cli_motor.c.obj

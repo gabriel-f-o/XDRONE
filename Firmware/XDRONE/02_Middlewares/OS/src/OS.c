@@ -76,8 +76,9 @@ os_err_e os_init(char* main_name, int8_t main_task_priority, uint32_t interrput_
 
 
 	OS_SYSTICK_SET_RELOAD(CMU_ClockFreqGet(cmuClock_SYSCLK)/1000);
-		OS_SYSTEM_CTRL->SYSTCSR |= 0b111;
-	//OS_SYSTICK_ENABLE();
+	OS_SYSTICK_CLOCKSOURCE_PROC(); //Selecs processor clock source
+	OS_SYSTICK_TICKINT_EN(); //Unmask interrupt
+	OS_SYSTICK_ENABLE();
 
 	NVIC_EnableIRQ(SysTick_IRQn);
 
