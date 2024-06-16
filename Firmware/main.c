@@ -29,6 +29,15 @@
 #include "XDRONE/00_Common/inc/common.h"
 #include "XDRONE/01_Drivers/inc/led.h"
 #include "XDRONE/01_Drivers/inc/motor.h"
+#include "XDRONE/02_Middlewares/OS/inc/OS.h"
+
+static volatile int a;
+
+static volatile int b;
+
+void SysTick_Handler(void){
+  os_tick(1);
+}
 
 int main(void)
 {
@@ -42,15 +51,23 @@ int main(void)
   app_init();
 
   led_init();
+  led_setColor(LED_COLOR_RED);
+  led_setIntesity(10);
+  led_setState(1);
 
   motor_init();
 
   cli_init();
 
-  PRINTLN("Benga");
+  PRINTF("\n");
+  PRINTLN("Clk: %lu", CMU_ClockFreqGet(cmuClock_SYSCLK));
   PRINTLN_W("WARNING");
   PRINTLN_E("ERROR");
 
+  ASSERT(os_init("main", 20, OS_DEFAULT_STACK_SIZE, "idle", OS_DEFAULT_STACK_SIZE) == OS_ERR_OK);
+  os_scheduler_start();
+  os_task_sleep(1000);
+  
 #if defined(SL_CATALOG_KERNEL_PRESENT)
   // Start the kernel. Task(s) created in app_init() will start running.
   sl_system_kernel_start();

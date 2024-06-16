@@ -108,7 +108,7 @@ static const sl_cli_command_info_t motorDR_pwm =
 
 static const sl_cli_command_info_t motorAll_pwm =
      SL_CLI_COMMAND(cli_motorAll_pwm, "All Motor PWM",
-                     "PWM from 0 to 1000",
+                     "PWM from 0 to 1000: [0]: Up left, [1] Up right, [2] Down left, [3] Down right",
                      {
                          SL_CLI_ARG_UINT16,
                          SL_CLI_ARG_UINT16,
