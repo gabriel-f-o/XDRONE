@@ -1,12 +1,10 @@
 {
+    "cmake.sourceDirectory": "C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake",
     "files.associations": {
-        "em_cmu.h": "c",
-        "stdio.h": "c",
-        "sl_assert.h": "c",
-        "em_device.h": "c",
-        "sl_system_init.h": "c",
-        "sl_component_catalog.h": "c",
-        "pin_config.h": "c"
-    },
-    "cmake.sourceDirectory": "C:/Users/Public/Documents/Altium/Projects/XDRONE/Firmware/XDRONE_cmake"
+        "led.h": "c",
+        "common.h": "c",
+        "sl_cli_handles.h": "c",
+        "sl_system_process_action.h": "c",
+        "cli.h": "c"
+    }
 }

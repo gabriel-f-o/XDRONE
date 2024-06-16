@@ -11,3 +11,4 @@ Hardware/Project Logs for XDRONE/**
 
 Firmware/XDRONE_cmake/**
 !Firmware/XDRONE_cmake/build/default_config
+!Firmware/XDRONE_cmake/CMakeLists.txt

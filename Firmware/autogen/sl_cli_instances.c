@@ -10,7 +10,7 @@
 #include "sl_cmsis_os2_common.h"
 #endif // defined(SL_CATALOG_KERNEL_PRESENT)
 
-#include "sl_cli_config_cli.h"
+#include "sl_cli_config_xdrone.h"
 
 
 #include "sl_iostream_handles.h"
@@ -27,20 +27,20 @@
 
 extern const sl_cli_command_entry_t sl_cli_default_command_table[];
 
-#if !ISEMPTY(SL_CLI_CLI_COMMAND_GROUP)
-extern sl_cli_command_group_t *SL_CLI_CLI_COMMAND_GROUP;
+#if !ISEMPTY(SL_CLI_XDRONE_COMMAND_GROUP)
+extern sl_cli_command_group_t *SL_CLI_XDRONE_COMMAND_GROUP;
 #endif
 
 
-// Instance variables for cli
+// Instance variables for xdrone
 #if defined(SL_CATALOG_KERNEL_PRESENT)
-__ALIGNED(8) static uint8_t cli_task_stack[(SL_CLI_CLI_TASK_STACK_SIZE * sizeof(void *)) & 0xFFFFFFF8u];
-__ALIGNED(4) static uint8_t cli_thread_cb[osThreadCbSize];
-static osThreadId_t cli_thread_id;
+__ALIGNED(8) static uint8_t xdrone_task_stack[(SL_CLI_XDRONE_TASK_STACK_SIZE * sizeof(void *)) & 0xFFFFFFF8u];
+__ALIGNED(4) static uint8_t xdrone_thread_cb[osThreadCbSize];
+static osThreadId_t xdrone_thread_id;
 #endif
-static sl_cli_t sl_cli_cli;
-sl_cli_handle_t sl_cli_cli_handle = &sl_cli_cli;
-sl_cli_command_group_t sl_cli_cli_command_group =
+static sl_cli_t sl_cli_xdrone;
+sl_cli_handle_t sl_cli_xdrone_handle = &sl_cli_xdrone;
+sl_cli_command_group_t sl_cli_xdrone_command_group =
 {
   { NULL },
   false,
@@ -51,7 +51,7 @@ sl_cli_command_group_t sl_cli_cli_command_group =
 
 const sl_cli_handle_t sl_cli_handles[] = {
 
-  &sl_cli_cli,
+  &sl_cli_xdrone,
 
 };
 
@@ -64,28 +64,28 @@ void sl_cli_instances_init(void)
 {
   sl_cli_instance_parameters_t instance_parameters;
 
-  // ==== Initialize cli ====
-  sl_cli_default_handle = sl_cli_cli_handle;
-  sl_cli_default_command_group  = &sl_cli_cli_command_group;
-  instance_parameters.task_name = "CLI instance cli";
-  instance_parameters.iostream_handle = SL_CLI_CLI_IOSTREAM_HANDLE;
-#if ISEMPTY(SL_CLI_CLI_COMMAND_GROUP)
+  // ==== Initialize xdrone ====
+  sl_cli_default_handle = sl_cli_xdrone_handle;
+  sl_cli_default_command_group  = &sl_cli_xdrone_command_group;
+  instance_parameters.task_name = "CLI instance xdrone";
+  instance_parameters.iostream_handle = SL_CLI_XDRONE_IOSTREAM_HANDLE;
+#if ISEMPTY(SL_CLI_XDRONE_COMMAND_GROUP)
   sl_cli_default_command_group  = NULL;
 #else
-  sl_cli_default_command_group  = SL_CLI_CLI_COMMAND_GROUP;
+  sl_cli_default_command_group  = SL_CLI_XDRONE_COMMAND_GROUP;
 #endif
   instance_parameters.default_command_group = sl_cli_default_command_group;
 #if defined(SL_CATALOG_KERNEL_PRESENT)
-  instance_parameters.thread_id = &cli_thread_id;
-  instance_parameters.thread_cb = cli_thread_cb;
-  instance_parameters.stack = cli_task_stack;
-  instance_parameters.stack_size = (SL_CLI_CLI_TASK_STACK_SIZE * sizeof(void *)) & 0xFFFFFFF8u;
-  EFM_ASSERT(SL_CLI_CLI_TASK_PRIORITY < osPriorityISR);
-  instance_parameters.prio = (osPriority_t)SL_CLI_CLI_TASK_PRIORITY;
-  instance_parameters.start_delay_ms = SL_CLI_CLI_TASK_START_DELAY_MS;
-  instance_parameters.loop_delay_ms = SL_CLI_CLI_TASK_LOOP_DELAY_MS;
+  instance_parameters.thread_id = &xdrone_thread_id;
+  instance_parameters.thread_cb = xdrone_thread_cb;
+  instance_parameters.stack = xdrone_task_stack;
+  instance_parameters.stack_size = (SL_CLI_XDRONE_TASK_STACK_SIZE * sizeof(void *)) & 0xFFFFFFF8u;
+  EFM_ASSERT(SL_CLI_XDRONE_TASK_PRIORITY < osPriorityISR);
+  instance_parameters.prio = (osPriority_t)SL_CLI_XDRONE_TASK_PRIORITY;
+  instance_parameters.start_delay_ms = SL_CLI_XDRONE_TASK_START_DELAY_MS;
+  instance_parameters.loop_delay_ms = SL_CLI_XDRONE_TASK_LOOP_DELAY_MS;
 #endif
-  sl_cli_instance_init(sl_cli_cli_handle, &instance_parameters);
+  sl_cli_instance_init(sl_cli_xdrone_handle, &instance_parameters);
   
 }
 
@@ -93,7 +93,7 @@ void sl_cli_instances_init(void)
 bool sl_cli_instances_is_ok_to_sleep(void)
 {
   
-  if (sl_cli_is_ok_to_sleep(sl_cli_cli_handle) == false) {
+  if (sl_cli_is_ok_to_sleep(sl_cli_xdrone_handle) == false) {
     return false;
   }
   
@@ -105,9 +105,9 @@ void sl_cli_instances_tick(void)
 {
 sl_iostream_t *previous = sl_iostream_get_default();
 
-  // Handle cli
-  sl_iostream_set_default(sl_cli_cli_handle->iostream_handle);
-  sl_cli_tick_instance(sl_cli_cli_handle);
+  // Handle xdrone
+  sl_iostream_set_default(sl_cli_xdrone_handle->iostream_handle);
+  sl_cli_tick_instance(sl_cli_xdrone_handle);
   
   sl_iostream_set_default(previous);
 }

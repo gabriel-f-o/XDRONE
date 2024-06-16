@@ -31,14 +31,14 @@
 
 // <<< Use Configuration Wizard in Context Menu >>>
 
-#ifndef SL_CLI_CONFIG_CLI_H
-#define SL_CLI_CONFIG_CLI_H
+#ifndef SL_CLI_CONFIG_XDRONE_H
+#define SL_CLI_CONFIG_XDRONE_H
 
 /*******************************************************************************
  ******************************   DEFINES   ************************************
  ******************************************************************************/
 
-// <o SL_CLI_CLI_TASK_PRIORITY> CLI instance task priority
+// <o SL_CLI_XDRONE_TASK_PRIORITY> CLI instance task priority
 // <osPriorityLow1=> low + 1
 // <osPriorityLow2=> low + 2
 // <osPriorityLow3=> low + 3
@@ -88,28 +88,28 @@
 // <osPriorityRealtime7=> realtime + 7
 // <i> Default: osPriorityNormal1
 // <i> Priority of the CLI instance task using the CMSIS order and using the enum name
-  #define SL_CLI_CLI_TASK_PRIORITY      osPriorityNormal1
+  #define SL_CLI_XDRONE_TASK_PRIORITY      osPriorityNormal1
 
-// <o SL_CLI_CLI_TASK_STACK_SIZE> Task stack size
+// <o SL_CLI_XDRONE_TASK_STACK_SIZE> Task stack size
 // <i> Default: 400
 // <i> Stack size for the CLI task in words.
-  #define SL_CLI_CLI_TASK_STACK_SIZE       400
+  #define SL_CLI_XDRONE_TASK_STACK_SIZE       400
 
-// <o SL_CLI_CLI_TASK_START_DELAY_MS> CLI task start delay
+// <o SL_CLI_XDRONE_TASK_START_DELAY_MS> CLI task start delay
 // <i> Default: 0
 // <i> Specifies the delay in milliseconds before the cli task start to poll for input.
-  #define SL_CLI_CLI_TASK_START_DELAY_MS   0
+  #define SL_CLI_XDRONE_TASK_START_DELAY_MS   0
 
-// <o SL_CLI_CLI_TASK_LOOP_DELAY_MS> CLI task loop delay
+// <o SL_CLI_XDRONE_TASK_LOOP_DELAY_MS> CLI task loop delay
 // <i> Default: 50
 // <i> Specifies the delay in milliseconds after the cli task has polled the input.
-  #define SL_CLI_CLI_TASK_LOOP_DELAY_MS    50
+  #define SL_CLI_XDRONE_TASK_LOOP_DELAY_MS    50
 
-// <o SL_CLI_CLI_IOSTREAM_HANDLE> The iostream handle used by the cli instance
+// <o SL_CLI_XDRONE_IOSTREAM_HANDLE> The iostream handle used by the cli instance
 // <i> Default: sl_iostream_get_default()
-  #define SL_CLI_CLI_IOSTREAM_HANDLE    sl_iostream_get_default()
+  #define SL_CLI_XDRONE_IOSTREAM_HANDLE    sl_iostream_get_default()
 
-// <o SL_CLI_CLI_COMMAND_GROUP> The default command group.
+// <o SL_CLI_XDRONE_COMMAND_GROUP> The default command group.
 // <i> Default: sl_cli_default_command_group.
 // <i> Specifies a pointer to the command group that shall be used as the
 // <i> default command group for the cli instance.
@@ -122,8 +122,8 @@
 // <i> The application can provide a group created elsewhere in the
 // <i> application or use an empty definition for no default group.
 // <i> Please note: A command group can only be used once.
-  #define SL_CLI_CLI_COMMAND_GROUP      sl_cli_default_command_group
+  #define SL_CLI_XDRONE_COMMAND_GROUP      sl_cli_default_command_group
 
-#endif // SL_CLI_CONFIG_CLI_H
+#endif // SL_CLI_CONFIG_XDRONE_H
 
 // <<< end of configuration section >>>

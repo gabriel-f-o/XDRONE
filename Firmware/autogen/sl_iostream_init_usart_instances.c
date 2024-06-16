@@ -11,7 +11,7 @@
 
 
 // Include instance config 
- #include "sl_iostream_usart_iouart_config.h"
+ #include "sl_iostream_usart_uart_cli_config.h"
 
 // MACROs for generating name and IRQ handler function  
 #define SL_IOSTREAM_USART_CONCAT_PASTER(first, second, third)        first ##  second ## third
@@ -49,88 +49,88 @@ static sl_power_manager_em_transition_event_handle_t events_handle;
 #endif // SL_CATALOG_POWER_MANAGER_PRESENT
 
 
-sl_status_t sl_iostream_usart_init_iouart(void);
+sl_status_t sl_iostream_usart_init_uart_cli(void);
 
 
 // Instance(s) handle and context variable 
 
-static sl_iostream_uart_t sl_iostream_iouart;
-sl_iostream_t *sl_iostream_iouart_handle = &sl_iostream_iouart.stream;
-sl_iostream_uart_t *sl_iostream_uart_iouart_handle = &sl_iostream_iouart;
-static sl_iostream_usart_context_t  context_iouart;
-static uint8_t  rx_buffer_iouart[SL_IOSTREAM_USART_IOUART_RX_BUFFER_SIZE];
-sl_iostream_instance_info_t sl_iostream_instance_iouart_info = {
-  .handle = &sl_iostream_iouart.stream,
-  .name = "iouart",
+static sl_iostream_uart_t sl_iostream_uart_cli;
+sl_iostream_t *sl_iostream_uart_cli_handle = &sl_iostream_uart_cli.stream;
+sl_iostream_uart_t *sl_iostream_uart_uart_cli_handle = &sl_iostream_uart_cli;
+static sl_iostream_usart_context_t  context_uart_cli;
+static uint8_t  rx_buffer_uart_cli[SL_IOSTREAM_USART_UART_CLI_RX_BUFFER_SIZE];
+sl_iostream_instance_info_t sl_iostream_instance_uart_cli_info = {
+  .handle = &sl_iostream_uart_cli.stream,
+  .name = "uart_cli",
   .type = SL_IOSTREAM_TYPE_UART,
-  .periph_id = SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO,
-  .init = sl_iostream_usart_init_iouart,
+  .periph_id = SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO,
+  .init = sl_iostream_usart_init_uart_cli,
 };
 
 
 
-sl_status_t sl_iostream_usart_init_iouart(void)
+sl_status_t sl_iostream_usart_init_uart_cli(void)
 {
   sl_status_t status;
-  USART_InitAsync_TypeDef init_iouart = USART_INITASYNC_DEFAULT;
-  init_iouart.baudrate = SL_IOSTREAM_USART_IOUART_BAUDRATE;
-  init_iouart.parity = SL_IOSTREAM_USART_IOUART_PARITY;
-  init_iouart.stopbits = SL_IOSTREAM_USART_IOUART_STOP_BITS;
+  USART_InitAsync_TypeDef init_uart_cli = USART_INITASYNC_DEFAULT;
+  init_uart_cli.baudrate = SL_IOSTREAM_USART_UART_CLI_BAUDRATE;
+  init_uart_cli.parity = SL_IOSTREAM_USART_UART_CLI_PARITY;
+  init_uart_cli.stopbits = SL_IOSTREAM_USART_UART_CLI_STOP_BITS;
 #if (_SILICON_LABS_32B_SERIES > 0)
-  init_iouart.hwFlowControl = SL_IOSTREAM_USART_IOUART_FLOW_CONTROL_TYPE != uartFlowControlSoftware ? SL_IOSTREAM_USART_IOUART_FLOW_CONTROL_TYPE : usartHwFlowControlNone;
+  init_uart_cli.hwFlowControl = SL_IOSTREAM_USART_UART_CLI_FLOW_CONTROL_TYPE != uartFlowControlSoftware ? SL_IOSTREAM_USART_UART_CLI_FLOW_CONTROL_TYPE : usartHwFlowControlNone;
 #endif
-  sl_iostream_usart_config_t config_iouart = { 
-    .usart = SL_IOSTREAM_USART_IOUART_PERIPHERAL,
-    .clock = SL_IOSTREAM_USART_CLOCK_REF(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO),
-    .tx_port = SL_IOSTREAM_USART_IOUART_TX_PORT,
-    .tx_pin = SL_IOSTREAM_USART_IOUART_TX_PIN,
-    .rx_port = SL_IOSTREAM_USART_IOUART_RX_PORT,
-    .rx_pin = SL_IOSTREAM_USART_IOUART_RX_PIN,
+  sl_iostream_usart_config_t config_uart_cli = { 
+    .usart = SL_IOSTREAM_USART_UART_CLI_PERIPHERAL,
+    .clock = SL_IOSTREAM_USART_CLOCK_REF(SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO),
+    .tx_port = SL_IOSTREAM_USART_UART_CLI_TX_PORT,
+    .tx_pin = SL_IOSTREAM_USART_UART_CLI_TX_PIN,
+    .rx_port = SL_IOSTREAM_USART_UART_CLI_RX_PORT,
+    .rx_pin = SL_IOSTREAM_USART_UART_CLI_RX_PIN,
 #if (_SILICON_LABS_32B_SERIES > 0)
-#if defined(SL_IOSTREAM_USART_IOUART_CTS_PORT)
-    .cts_port = SL_IOSTREAM_USART_IOUART_CTS_PORT,
-    .cts_pin = SL_IOSTREAM_USART_IOUART_CTS_PIN,
+#if defined(SL_IOSTREAM_USART_UART_CLI_CTS_PORT)
+    .cts_port = SL_IOSTREAM_USART_UART_CLI_CTS_PORT,
+    .cts_pin = SL_IOSTREAM_USART_UART_CLI_CTS_PIN,
 #endif
-#if defined(SL_IOSTREAM_USART_IOUART_RTS_PORT)
-    .rts_port = SL_IOSTREAM_USART_IOUART_RTS_PORT,
-    .rts_pin = SL_IOSTREAM_USART_IOUART_RTS_PIN,
+#if defined(SL_IOSTREAM_USART_UART_CLI_RTS_PORT)
+    .rts_port = SL_IOSTREAM_USART_UART_CLI_RTS_PORT,
+    .rts_pin = SL_IOSTREAM_USART_UART_CLI_RTS_PIN,
 #endif
 #endif
 #if defined(GPIO_USART_ROUTEEN_TXPEN)
-    .usart_index = SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO,
+    .usart_index = SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO,
 #elif defined(USART_ROUTEPEN_RXPEN)
-    .usart_tx_location = SL_IOSTREAM_USART_IOUART_TX_LOC,
-    .usart_rx_location = SL_IOSTREAM_USART_IOUART_RX_LOC,
-#if defined(SL_IOSTREAM_USART_IOUART_CTS_PORT)
-    .usart_cts_location = SL_IOSTREAM_USART_IOUART_CTS_LOC,
+    .usart_tx_location = SL_IOSTREAM_USART_UART_CLI_TX_LOC,
+    .usart_rx_location = SL_IOSTREAM_USART_UART_CLI_RX_LOC,
+#if defined(SL_IOSTREAM_USART_UART_CLI_CTS_PORT)
+    .usart_cts_location = SL_IOSTREAM_USART_UART_CLI_CTS_LOC,
 #endif
-#if defined(SL_IOSTREAM_USART_IOUART_RTS_PORT)
-    .usart_rts_location = SL_IOSTREAM_USART_IOUART_RTS_LOC,
+#if defined(SL_IOSTREAM_USART_UART_CLI_RTS_PORT)
+    .usart_rts_location = SL_IOSTREAM_USART_UART_CLI_RTS_LOC,
 #endif
 #else
-    .usart_location = SL_IOSTREAM_USART_IOUART_ROUTE_LOC,
+    .usart_location = SL_IOSTREAM_USART_UART_CLI_ROUTE_LOC,
 #endif
   };
 
-  sl_iostream_dma_config_t dma_config_iouart = {.src = (uint8_t *)&SL_IOSTREAM_USART_IOUART_PERIPHERAL->RXDATA,
-                                                        .peripheral_signal = SL_IOSTREAM_USART_RX_DMA_SIGNAL(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO)};
+  sl_iostream_dma_config_t dma_config_uart_cli = {.src = (uint8_t *)&SL_IOSTREAM_USART_UART_CLI_PERIPHERAL->RXDATA,
+                                                        .peripheral_signal = SL_IOSTREAM_USART_RX_DMA_SIGNAL(SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO)};
 
-  sl_iostream_uart_config_t uart_config_iouart = {
-    .dma_cfg = dma_config_iouart,
-    .rx_buffer = rx_buffer_iouart,
-    .rx_buffer_length = SL_IOSTREAM_USART_IOUART_RX_BUFFER_SIZE,
-    .tx_irq_number = SL_IOSTREAM_USART_TX_IRQ_NUMBER(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO),
-    .rx_irq_number = SL_IOSTREAM_USART_RX_IRQ_NUMBER(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO),
-    .lf_to_crlf = SL_IOSTREAM_USART_IOUART_CONVERT_BY_DEFAULT_LF_TO_CRLF,
-    .rx_when_sleeping = SL_IOSTREAM_USART_IOUART_RESTRICT_ENERGY_MODE_TO_ALLOW_RECEPTION,
+  sl_iostream_uart_config_t uart_config_uart_cli = {
+    .dma_cfg = dma_config_uart_cli,
+    .rx_buffer = rx_buffer_uart_cli,
+    .rx_buffer_length = SL_IOSTREAM_USART_UART_CLI_RX_BUFFER_SIZE,
+    .tx_irq_number = SL_IOSTREAM_USART_TX_IRQ_NUMBER(SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO),
+    .rx_irq_number = SL_IOSTREAM_USART_RX_IRQ_NUMBER(SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO),
+    .lf_to_crlf = SL_IOSTREAM_USART_UART_CLI_CONVERT_BY_DEFAULT_LF_TO_CRLF,
+    .rx_when_sleeping = SL_IOSTREAM_USART_UART_CLI_RESTRICT_ENERGY_MODE_TO_ALLOW_RECEPTION,
   };
-  uart_config_iouart.sw_flow_control = SL_IOSTREAM_USART_IOUART_FLOW_CONTROL_TYPE == uartFlowControlSoftware;
+  uart_config_uart_cli.sw_flow_control = SL_IOSTREAM_USART_UART_CLI_FLOW_CONTROL_TYPE == uartFlowControlSoftware;
   // Instantiate usart instance 
-  status = sl_iostream_usart_init(&sl_iostream_iouart,
-                                  &uart_config_iouart,
-                                  &init_iouart,
-                                  &config_iouart,
-                                  &context_iouart);
+  status = sl_iostream_usart_init(&sl_iostream_uart_cli,
+                                  &uart_config_uart_cli,
+                                  &init_uart_cli,
+                                  &config_uart_cli,
+                                  &context_uart_cli);
   EFM_ASSERT(status == SL_STATUS_OK);
 
   
@@ -150,21 +150,21 @@ void sl_iostream_usart_init_instances(void)
 
   // Instantiate usart instance(s) 
   
-  status = sl_iostream_usart_init_iouart();
+  status = sl_iostream_usart_init_uart_cli();
   EFM_ASSERT(status == SL_STATUS_OK);
   
 }
 
  
-// IOUART IRQ Handler
-void SL_IOSTREAM_USART_TX_IRQ_HANDLER(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO)(void)
+// UART_CLI IRQ Handler
+void SL_IOSTREAM_USART_TX_IRQ_HANDLER(SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO)(void)
 {
-  sl_iostream_usart_irq_handler(&sl_iostream_iouart);
+  sl_iostream_usart_irq_handler(&sl_iostream_uart_cli);
 }
 
-void SL_IOSTREAM_USART_RX_IRQ_HANDLER(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO)(void)
+void SL_IOSTREAM_USART_RX_IRQ_HANDLER(SL_IOSTREAM_USART_UART_CLI_PERIPHERAL_NO)(void)
 {
-  sl_iostream_usart_irq_handler(&sl_iostream_iouart);
+  sl_iostream_usart_irq_handler(&sl_iostream_uart_cli);
 }
 
 
@@ -172,9 +172,9 @@ void SL_IOSTREAM_USART_RX_IRQ_HANDLER(SL_IOSTREAM_USART_IOUART_PERIPHERAL_NO)(vo
 #if defined(SL_CATALOG_POWER_MANAGER_PRESENT) 
 #if !defined(SL_CATALOG_KERNEL_PRESENT)
  
-sl_power_manager_on_isr_exit_t sl_iostream_usart_iouart_sleep_on_isr_exit(void)
+sl_power_manager_on_isr_exit_t sl_iostream_usart_uart_cli_sleep_on_isr_exit(void)
 {
-  return sl_iostream_uart_sleep_on_isr_exit(&sl_iostream_iouart);
+  return sl_iostream_uart_sleep_on_isr_exit(&sl_iostream_uart_cli);
 }
 
 #endif // SL_CATALOG_KERNEL_PRESENT
@@ -190,8 +190,8 @@ static void events_handler(sl_power_manager_em_t from,
       || (to == SL_POWER_MANAGER_EM0))) {
       
 	// Wake the USART Tx pin back up
-	out = GPIO_PinOutGet(SL_IOSTREAM_USART_IOUART_TX_PORT, SL_IOSTREAM_USART_IOUART_TX_PIN);
-	GPIO_PinModeSet(SL_IOSTREAM_USART_IOUART_TX_PORT, SL_IOSTREAM_USART_IOUART_TX_PIN, gpioModePushPull, out);
+	out = GPIO_PinOutGet(SL_IOSTREAM_USART_UART_CLI_TX_PORT, SL_IOSTREAM_USART_UART_CLI_TX_PIN);
+	GPIO_PinModeSet(SL_IOSTREAM_USART_UART_CLI_TX_PORT, SL_IOSTREAM_USART_UART_CLI_TX_PIN, gpioModePushPull, out);
     
 	} else if (((to == SL_POWER_MANAGER_EM2) 
 			   || (to == SL_POWER_MANAGER_EM3)) 
@@ -199,16 +199,16 @@ static void events_handler(sl_power_manager_em_t from,
 			   || (from == SL_POWER_MANAGER_EM0))) {
 	    
 	  // Sleep the USART Tx pin on series 2 devices to save energy
-      out = GPIO_PinOutGet(SL_IOSTREAM_USART_IOUART_TX_PORT, SL_IOSTREAM_USART_IOUART_TX_PIN);
-      GPIO_PinModeSet(SL_IOSTREAM_USART_IOUART_TX_PORT, SL_IOSTREAM_USART_IOUART_TX_PIN, gpioModeDisabled, out);
+      out = GPIO_PinOutGet(SL_IOSTREAM_USART_UART_CLI_TX_PORT, SL_IOSTREAM_USART_UART_CLI_TX_PIN);
+      GPIO_PinModeSet(SL_IOSTREAM_USART_UART_CLI_TX_PORT, SL_IOSTREAM_USART_UART_CLI_TX_PIN, gpioModeDisabled, out);
     
   }
   #endif // _SILICON_LABS_32B_SERIES_2
   if (to < SL_POWER_MANAGER_EM2){
     // Only prepare for wakeup from EM1 or less, since USART doesn't run in EM2
      
-    if (sl_iostream_uart_iouart_handle->stream.context != NULL) {
-      sl_iostream_uart_prepare_for_sleep(sl_iostream_uart_iouart_handle);
+    if (sl_iostream_uart_uart_cli_handle->stream.context != NULL) {
+      sl_iostream_uart_prepare_for_sleep(sl_iostream_uart_uart_cli_handle);
     }
     
   }

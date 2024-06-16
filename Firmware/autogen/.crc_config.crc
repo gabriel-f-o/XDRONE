@@ -1,1 +1,13 @@
 #CRC Codes for initially generated config files -- do not modify!
+dmadrv_config.h=1207334949
+emlib_core_debug_config.h=-212744839
+sl_cli_config.h=690748531
+sl_cli_config_cli0.h=-2124747238
+sl_cli_config_xdrone.h=1073831299
+sl_device_init_dcdc_config.h=1498363383
+sl_device_init_dpll_config.h=2140489157
+sl_device_init_emu_config.h=622680131
+sl_device_init_hfxo_config.h=1255225254
+sl_device_init_lfxo_config.h=-45943325
+sl_iostream_usart_uart_cli_config.h=1683931132
+sl_memory_config.h=687128566

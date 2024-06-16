@@ -75,41 +75,9 @@
 // [GPIO]$
 
 // $[TIMER0]
-// TIMER0 CC0 on PC06
-#ifndef TIMER0_CC0_PORT                         
-#define TIMER0_CC0_PORT                          gpioPortC
-#endif
-#ifndef TIMER0_CC0_PIN                          
-#define TIMER0_CC0_PIN                           6
-#endif
-
-// TIMER0 CC1 on PC07
-#ifndef TIMER0_CC1_PORT                         
-#define TIMER0_CC1_PORT                          gpioPortC
-#endif
-#ifndef TIMER0_CC1_PIN                          
-#define TIMER0_CC1_PIN                           7
-#endif
-
 // [TIMER0]$
 
 // $[TIMER1]
-// TIMER1 CC0 on PC08
-#ifndef TIMER1_CC0_PORT                         
-#define TIMER1_CC0_PORT                          gpioPortC
-#endif
-#ifndef TIMER1_CC0_PIN                          
-#define TIMER1_CC0_PIN                           8
-#endif
-
-// TIMER1 CC1 on PC09
-#ifndef TIMER1_CC1_PORT                         
-#define TIMER1_CC1_PORT                          gpioPortC
-#endif
-#ifndef TIMER1_CC1_PIN                          
-#define TIMER1_CC1_PIN                           9
-#endif
-
 // [TIMER1]$
 
 // $[TIMER2]
@@ -183,22 +151,6 @@
 // [LETIMER0]$
 
 // $[IADC0]
-// IADC0 SCAN0POS on PD02
-#ifndef IADC0_SCAN0POS_PORT                     
-#define IADC0_SCAN0POS_PORT                      gpioPortD
-#endif
-#ifndef IADC0_SCAN0POS_PIN                      
-#define IADC0_SCAN0POS_PIN                       2
-#endif
-
-// IADC0 SCAN1POS on PD03
-#ifndef IADC0_SCAN1POS_PORT                     
-#define IADC0_SCAN1POS_PORT                      gpioPortD
-#endif
-#ifndef IADC0_SCAN1POS_PIN                      
-#define IADC0_SCAN1POS_PIN                       3
-#endif
-
 // [IADC0]$
 
 // $[ACMP0]
@@ -236,18 +188,18 @@
 #define _PIN                                     0
 #endif
 
-#ifndef CLI_RX_PORT                             
-#define CLI_RX_PORT                              gpioPortA
+#ifndef UART_CLI_RX_PORT                        
+#define UART_CLI_RX_PORT                         gpioPortA
 #endif
-#ifndef CLI_RX_PIN                              
-#define CLI_RX_PIN                               4
+#ifndef UART_CLI_RX_PIN                         
+#define UART_CLI_RX_PIN                          4
 #endif
 
-#ifndef CLI_TX_PORT                             
-#define CLI_TX_PORT                              gpioPortA
+#ifndef UART_CLI_TX_PORT                        
+#define UART_CLI_TX_PORT                         gpioPortA
 #endif
-#ifndef CLI_TX_PIN                              
-#define CLI_TX_PIN                               5
+#ifndef UART_CLI_TX_PIN                         
+#define UART_CLI_TX_PIN                          5
 #endif
 
 #ifndef LED_RED_PORT                            
@@ -269,62 +221,6 @@
 #endif
 #ifndef LED_BLUE_PIN                            
 #define LED_BLUE_PIN                             10
-#endif
-
-#ifndef BTN0_PORT                               
-#define BTN0_PORT                                gpioPortC
-#endif
-#ifndef BTN0_PIN                                
-#define BTN0_PIN                                 4
-#endif
-
-#ifndef BTN1_PORT                               
-#define BTN1_PORT                                gpioPortC
-#endif
-#ifndef BTN1_PIN                                
-#define BTN1_PIN                                 5
-#endif
-
-#ifndef MOTOR_UP_LEFT_PORT                      
-#define MOTOR_UP_LEFT_PORT                       gpioPortC
-#endif
-#ifndef MOTOR_UP_LEFT_PIN                       
-#define MOTOR_UP_LEFT_PIN                        6
-#endif
-
-#ifndef MOTOR_DOWN_LEFT_PORT                    
-#define MOTOR_DOWN_LEFT_PORT                     gpioPortC
-#endif
-#ifndef MOTOR_DOWN_LEFT_PIN                     
-#define MOTOR_DOWN_LEFT_PIN                      7
-#endif
-
-#ifndef MOTOR_DOWN_RIGHT_PORT                   
-#define MOTOR_DOWN_RIGHT_PORT                    gpioPortC
-#endif
-#ifndef MOTOR_DOWN_RIGHT_PIN                    
-#define MOTOR_DOWN_RIGHT_PIN                     8
-#endif
-
-#ifndef MOTOR_UP_RIGHT_PORT                     
-#define MOTOR_UP_RIGHT_PORT                      gpioPortC
-#endif
-#ifndef MOTOR_UP_RIGHT_PIN                      
-#define MOTOR_UP_RIGHT_PIN                       9
-#endif
-
-#ifndef VBATT_DIV2_PORT                         
-#define VBATT_DIV2_PORT                          gpioPortD
-#endif
-#ifndef VBATT_DIV2_PIN                          
-#define VBATT_DIV2_PIN                           2
-#endif
-
-#ifndef TEMP_PORT                               
-#define TEMP_PORT                                gpioPortD
-#endif
-#ifndef TEMP_PIN                                
-#define TEMP_PIN                                 3
 #endif
 
 // [CUSTOM_PIN_NAME]$

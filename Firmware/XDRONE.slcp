@@ -27,14 +27,15 @@ sdk: {id: gecko_sdk, version: 4.4.3}
 toolchain_settings: []
 component:
 - {id: EFR32FG28A120F1024GM48}
-- instance: [cli]
+- instance: [xdrone]
   id: cli
+- {id: cli_core}
 - {id: device_init}
 - {id: device_init_dpll}
 - {id: device_init_hfxo}
 - {id: device_init_lfxo}
 - {id: emlib_timer}
-- instance: [iouart]
+- instance: [uart_cli]
   id: iostream_usart
 - {id: iostream_usart_core}
 - {id: sl_system}

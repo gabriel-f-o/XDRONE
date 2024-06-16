@@ -4,7 +4,7 @@
 
 const sl_iostream_instance_info_t *sl_iostream_instances_info[] = {
 
-    &sl_iostream_instance_iouart_info,
+    &sl_iostream_instance_uart_cli_info,
   
 };
 

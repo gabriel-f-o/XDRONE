@@ -8,15 +8,15 @@ extern "C" {
 #endif
 
 // CLI instances present in the project.
-#define SL_CLI_CLI_PRESENT
+#define SL_CLI_XDRONE_PRESENT
 
 
 // CLI handles.
-extern sl_cli_handle_t sl_cli_cli_handle;
+extern sl_cli_handle_t sl_cli_xdrone_handle;
 
 
 // CLI command groups.
-extern sl_cli_command_group_t sl_cli_cli_command_group;
+extern sl_cli_command_group_t sl_cli_xdrone_command_group;
 
 
 extern const sl_cli_handle_t sl_cli_handles[];
