@@ -1,6 +1,7 @@
 #include "sl_cli_handles.h"
 #include "XDRONE/00_Common/inc/common.h"
 #include "XDRONE/01_Drivers/inc/motor.h"
+#include "XDRONE/02_Middlewares/OS/inc/OS.h"
 
 /**********************************************
  * EXTERNAL VARIABLES
@@ -23,6 +24,15 @@ static void cli_panic(sl_cli_command_arg_t *arguments){
     motor_setPower(MOTOR_DOWN_RIGHT, 0);
 }
 
+
+static void cli_rst(sl_cli_command_arg_t *arguments){
+    (void)arguments;
+    
+    PRINTLN_E("Reset MCU");
+    os_task_wait(500);
+    NVIC_SystemReset();
+}
+
 /**********************************************
  * PRIVATE VARIABLES
  *********************************************/
@@ -34,8 +44,17 @@ static const sl_cli_command_info_t panic =
                          SL_CLI_ARG_END,
                      });
 
+
+static const sl_cli_command_info_t rst =
+     SL_CLI_COMMAND(cli_rst, "Rest MCU",
+                     NULL,
+                     {
+                         SL_CLI_ARG_END,
+                     });
+
 static sl_cli_command_entry_t cli_main_entry[] = {
      {"p", &panic, false},
+     {"reset", &rst, false},
      {NULL, NULL, false},
  };
 

@@ -68,6 +68,7 @@ uint16_t motor_getPower(motor_e motor){
  **********************************************************************/
 void motor_init(void)
 {
+#if 01
     /* Enable peripheral clocks
     ---------------------------------------------------*/
     CMU_ClockEnable(cmuClock_GPIO, true);
@@ -108,12 +109,134 @@ void motor_init(void)
     GPIO->TIMERROUTE[1].CC0ROUTE = (TIMER1_CC0_PORT << _GPIO_TIMER_CC0ROUTE_PORT_SHIFT) | (TIMER1_CC0_PIN << _GPIO_TIMER_CC0ROUTE_PIN_SHIFT);
     GPIO->TIMERROUTE[1].CC1ROUTE = (TIMER1_CC1_PORT << _GPIO_TIMER_CC1ROUTE_PORT_SHIFT) | (TIMER1_CC1_PIN << _GPIO_TIMER_CC1ROUTE_PIN_SHIFT);
     
+    PRINTLN("------------------ MOTOR INFO ---------------------------");
+    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
+    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
+    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
+    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
+    PRINTLN("---------------------------------------------------------");
+
     /* Init all channels as pwm
     ---------------------------------------------------*/
     TIMER_InitCC(TIMER0, 0, &timerCCInit);
     TIMER_InitCC(TIMER0, 1, &timerCCInit);
     TIMER_InitCC(TIMER1, 0, &timerCCInit);
     TIMER_InitCC(TIMER1, 1, &timerCCInit);
+
+        PRINTLN("------------------ MOTOR INFO ---------------------------");
+    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
+    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
+    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
+    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
+    PRINTLN("---------------------------------------------------------");
+
+
+    /* Set compare as 0 to turn all off
+    ---------------------------------------------------*/
+    TIMER_TopSet(TIMER0, 1000);
+    TIMER_TopSet(TIMER1, 1000);
+
+        PRINTLN("------------------ MOTOR INFO ---------------------------");
+    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
+    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
+    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
+    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
+    PRINTLN("---------------------------------------------------------");
+
+    motor_setPower(MOTOR_UP_LEFT, 0);
+    motor_setPower(MOTOR_UP_RIGHT, 0);
+
+    PRINTLN("------------------ MOTOR INFO ---------------------------");
+    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
+    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
+    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
+    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
+    PRINTLN("---------------------------------------------------------");
+
+    motor_setPower(MOTOR_DOWN_LEFT, 0);
+    motor_setPower(MOTOR_DOWN_RIGHT, 0);
+
+        PRINTLN("------------------ MOTOR INFO ---------------------------");
+    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
+    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
+    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
+    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
+    PRINTLN("---------------------------------------------------------");
+
+    /* Enable timer
+    ---------------------------------------------------*/
+    TIMER_Enable(TIMER0, true);
+    TIMER_Enable(TIMER1, true);
+
+        PRINTLN("------------------ MOTOR INFO ---------------------------");
+    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
+    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
+    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
+    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
+    PRINTLN("---------------------------------------------------------");
+#else
+        /* Enable peripheral clocks
+    ---------------------------------------------------*/
+    CMU_ClockEnable(cmuClock_GPIO, true);
+    CMU_ClockEnable(cmuClock_TIMER0, true);
+    CMU_ClockEnable(cmuClock_TIMER1, true);
+
+    /* Force all gpio to output 0 (off)
+    ---------------------------------------------------*/
+    GPIO_PinModeSet(MOTOR_UP_LEFT_PORT,     MOTOR_UP_LEFT_PIN,      gpioModePushPull, 0);
+    GPIO_PinModeSet(MOTOR_UP_RIGHT_PORT,    MOTOR_UP_RIGHT_PIN,     gpioModePushPull, 0);
+    GPIO_PinModeSet(MOTOR_DOWN_LEFT_PORT,   MOTOR_DOWN_LEFT_PIN,    gpioModePushPull, 0);
+    GPIO_PinModeSet(MOTOR_DOWN_RIGHT_PORT,  MOTOR_DOWN_RIGHT_PIN,   gpioModePushPull, 0);
+
+    /* Create Timer init structure
+    ---------------------------------------------------*/
+    uint16_t prescale = CMU_ClockFreqGet(cmuClock_TIMER1) / MOTOR_PWM_FREQ_HZ - 1;
+    TIMER_Init_TypeDef timerInit = {                                                                                   
+        .enable     = false,                /* Don't enable timer when initialization completes. */           
+        .debugRun   = false,                /* Stop counter during debug halt. */                       
+        .prescale   = prescale,             /*Prescale to have desired frequency */            
+        .clkSel     = timerClkSelHFPerClk,  /* Select HFPER / HFPERB clock. */                          
+        .count2x    = false,                /* Not 2x count mode. */                                    
+        .ati        = false,                /* No ATI. */                                               
+        .rssCoist   = false,                /* No RSSCOIST. */                                          
+        .fallAction = timerInputActionNone, /* No action on falling input edge. */                      
+        .riseAction = timerInputActionNone, /* No action on rising input edge. */                       
+        .mode       = timerModeUp,          /* Up-counting. */                                          
+        .dmaClrAct  = false,                /* Do not clear DMA requests when DMA channel is active. */ 
+        .quadModeX4 = false,                /* Select X2 quadrature decode mode (if used). */           
+        .oneShot    = false,                /* Disable one shot. */                                     
+        .sync       = false,                /* Not started/stopped/reloaded by other timers. */         
+        .disSyncOut = false                 /* Disable ability to start/stop/reload other timers. */    
+    };
+
+    /* Init timer
+    ---------------------------------------------------*/
+    TIMER_Init(TIMER0, &timerInit);
+    TIMER_Init(TIMER1, &timerInit);
+
+    /* Init all channels as pwm
+    ---------------------------------------------------*/
+    TIMER_InitCC_TypeDef timerCCInit = {                                                                          
+        .eventCtrl      = timerEventEveryEdge,    /* Event on every capture. */                    
+        .edge           = timerEdgeRising,        /* Input capture edge on rising edge. */         
+        .prsSel         = 0,                      /* Not used by default, select PRS channel 0. */ 
+        .cufoa          = timerOutputActionNone,  /* No action on underflow. */                    
+        .cofoa          = timerOutputActionNone,  /* No action on overflow. */                     
+        .cmoa           = timerOutputActionNone,  /* No action on match. */                        
+        .mode           = timerCCModePWM,         /* PWM channel. */           
+        .filter         = false,                  /* Disable filter. */                            
+        .prsInput       = false,                  /* No PRS input. */                              
+        .coist          = true,                   /* Clear output when counter disabled. */        
+        .outInvert      = false,                  /* Do not invert output. */                      
+        .prsOutput      = timerPrsOutputDefault,  /* Use default PRS output configuration. */      
+        .prsInputType   = timerPrsInputNone       /* No PRS input, so input type is none. */       
+    };
+
+    TIMER_InitCC(TIMER0, 0, &timerCCInit);
+    TIMER_InitCC(TIMER1, 0, &timerCCInit);
+    timerCCInit.outInvert = true;
+    TIMER_InitCC(TIMER1, 1, &timerCCInit);
+    TIMER_InitCC(TIMER0, 1, &timerCCInit);
 
     /* Set compare as 0 to turn all off
     ---------------------------------------------------*/
@@ -122,7 +245,6 @@ void motor_init(void)
 
     motor_setPower(MOTOR_UP_LEFT, 0);
     motor_setPower(MOTOR_UP_RIGHT, 0);
-
     motor_setPower(MOTOR_DOWN_LEFT, 0);
     motor_setPower(MOTOR_DOWN_RIGHT, 0);
 
@@ -130,4 +252,18 @@ void motor_init(void)
     ---------------------------------------------------*/
     TIMER_Enable(TIMER0, true);
     TIMER_Enable(TIMER1, true);
+
+    /* Enable Timer to control GPIOs
+    ---------------------------------------------------*/
+    GPIO->TIMERROUTE[0].ROUTEEN  = GPIO_TIMER_ROUTEEN_CC0PEN | GPIO_TIMER_ROUTEEN_CC1PEN;
+    GPIO->TIMERROUTE[1].ROUTEEN  = GPIO_TIMER_ROUTEEN_CC0PEN | GPIO_TIMER_ROUTEEN_CC1PEN;
+
+    /* Set timers channels
+    ---------------------------------------------------*/
+    GPIO->TIMERROUTE[0].CC0ROUTE = (TIMER0_CC0_PORT << _GPIO_TIMER_CC0ROUTE_PORT_SHIFT) | (TIMER0_CC0_PIN << _GPIO_TIMER_CC0ROUTE_PIN_SHIFT);
+    GPIO->TIMERROUTE[0].CC1ROUTE = (TIMER0_CC1_PORT << _GPIO_TIMER_CC1ROUTE_PORT_SHIFT) | (TIMER0_CC1_PIN << _GPIO_TIMER_CC1ROUTE_PIN_SHIFT);
+
+    GPIO->TIMERROUTE[1].CC0ROUTE = (TIMER1_CC0_PORT << _GPIO_TIMER_CC0ROUTE_PORT_SHIFT) | (TIMER1_CC0_PIN << _GPIO_TIMER_CC0ROUTE_PIN_SHIFT);
+    GPIO->TIMERROUTE[1].CC1ROUTE = (TIMER1_CC1_PORT << _GPIO_TIMER_CC1ROUTE_PORT_SHIFT) | (TIMER1_CC1_PIN << _GPIO_TIMER_CC1ROUTE_PIN_SHIFT);
+#endif
 }

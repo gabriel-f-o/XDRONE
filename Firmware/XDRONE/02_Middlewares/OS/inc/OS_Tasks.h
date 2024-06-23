@@ -10,6 +10,7 @@
 
 #include "OS_Common.h"
 #include "OS_Obj.h"
+#include "OS_Tick.h"
 
 /**********************************************
  * PUBLIC TYPES
@@ -218,6 +219,19 @@ static inline os_task_t* os_task_getFromHandle(os_handle_t h){
 	if(h->type != OS_OBJ_TASK) return NULL;
 
 	return (os_task_t*)h;
+}
+
+/***********************************************************************
+ * OS Task Wait
+ *
+ * @brief This function performs a blocking wait for an amount of MS
+ *
+ * @param uint32_t ms : [in] amount of ticks to block
+ *
+ **********************************************************************/
+static inline void os_task_wait(uint32_t ms){
+    uint32_t enter = os_getMsTick();
+	while(os_getMsTick() - enter < ms) continue;
 }
 
 #endif /* INC_OS_OS_TASKS_H_ */
