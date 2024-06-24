@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
   <descriptors name="XDRONE">
-    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.3._-1637281850"/>
-    <properties key="universalConfig.relativeWorkspacePath" value="..\XDRONE.slcw"/>
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.3._-285443621"/>
+    <properties key="universalConfig.relativeWorkspacePath" value="..\Firmware.slcw"/>
     <properties key="universalConfig.generationDirectory" value=""/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
     <properties key="universalConfig.incrementalOverwriteConfigs" value="false"/>

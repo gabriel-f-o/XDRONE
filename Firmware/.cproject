@@ -14,6 +14,7 @@
 					<extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -27,7 +28,7 @@
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="com.silabs.ss.framework.project.core.noToolChain.stockConfig#com.silabs.ss.framework.project.core.noToolChain:0.0.0" name="(No toolchain) - None Toolchain Configuration" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="com.silabs.ss.framework.project.core.noToolChain.stockConfig#com.silabs.ss.framework.project.core.noToolChain:0.0.0." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1838002853" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform binaryParser="com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="org.eclipse.cdt.build.core.prefbase.toolchain.1838002853.1731264049" name=""/>
+							<targetPlatform binaryParser="com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL;org.eclipse.cdt.core.ELF" id="org.eclipse.cdt.build.core.prefbase.toolchain.1838002853.1731264049" name=""/>
 							<builder buildPath="${workspace_loc:/${ProjName}}/.makefile" id="org.eclipse.cdt.build.core.settings.default.builder.1046526122" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="false" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1779893761" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.516348583" name="GNU C++ with IAR extensions" superClass="org.eclipse.cdt.build.core.settings.holder">
@@ -64,5 +65,9 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="(No toolchain) - None Toolchain Configuration">
+			<resource resourceType="PROJECT" workspacePath="/XDRONE"/>
+		</configuration>
+	</storageModule>
 </cproject>

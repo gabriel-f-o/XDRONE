@@ -42,7 +42,7 @@
 
 // <o SL_DEVICE_INIT_HFXO_FREQ> Frequency <38000000-40000000>
 // <i> Default: 39000000
-#define SL_DEVICE_INIT_HFXO_FREQ           39000000
+#define SL_DEVICE_INIT_HFXO_FREQ           38400000
 
 // <o SL_DEVICE_INIT_HFXO_PRECISION> HFXO precision in PPM <0-65535>
 // <i> Default: 50
@@ -50,7 +50,7 @@
 
 // <o SL_DEVICE_INIT_HFXO_CTUNE> CTUNE <0-255>
 // <i> Default: 140
-#define SL_DEVICE_INIT_HFXO_CTUNE          50
+#define SL_DEVICE_INIT_HFXO_CTUNE          140
 
 // <<< end of configuration section >>>
 
