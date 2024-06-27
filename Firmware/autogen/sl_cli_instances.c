@@ -103,6 +103,7 @@ bool sl_cli_instances_is_ok_to_sleep(void)
 
 void sl_cli_instances_tick(void)
 {
+  	__asm volatile ("mov r0, #105");
 sl_iostream_t *previous = sl_iostream_get_default();
 
   // Handle xdrone

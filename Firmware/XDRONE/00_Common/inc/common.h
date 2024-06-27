@@ -18,6 +18,25 @@
 #define __FILE_NAME__  __FILE__
 #endif
 
+/* Defines a definition as weak
+ ---------------------------------------------------*/
+#ifndef __weak
+#define __weak __attribute__((weak))
+#endif
+
+/* Defines a naked function (pure assembly)
+ ---------------------------------------------------*/
+#ifndef __naked
+#define __naked __attribute__((naked))
+#endif
+
+/* Defines an used function to avoid warnings and optimization (functions called by asm are not detected)
+ ---------------------------------------------------*/
+#ifndef __used
+#define __used __attribute__((used))
+#endif
+
+
 /**********************************************
  * MACROS
  *********************************************/

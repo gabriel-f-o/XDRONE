@@ -29,6 +29,7 @@
 #include "XDRONE/00_Common/inc/common.h"
 #include "XDRONE/01_Drivers/inc/led.h"
 #include "XDRONE/01_Drivers/inc/motor.h"
+#include "XDRONE/01_Drivers/inc/resetReason.h"
 #include "XDRONE/02_Middlewares/OS/inc/OS.h"
 
 void SysTick_Handler(void){
@@ -37,14 +38,24 @@ void SysTick_Handler(void){
 
 int main(void)
 {
+
+  for(int volatile i = 0; i < 100000; i++) continue;
+
   // Initialize Silicon Labs device, system, service(s) and protocol stack(s).
   // Note that if the kernel is present, processing task(s) will be created by
   // this call.
   sl_system_init();
 
+  /*__asm volatile("mov r0, #105");
+  __asm volatile("mov r1, #100");
+  __asm volatile("push {r0-r1}");*/
+  
+
   // Initialize the application. For example, create periodic timer(s) or
   // task(s) if the kernel is present.
   app_init();
+
+  resetReason();
 
   led_init();
   led_setColor(LED_COLOR_RED);
@@ -57,13 +68,20 @@ int main(void)
 
   PRINTF("\n");
   PRINTLN("Clk: %lu", CMU_ClockFreqGet(cmuClock_SYSCLK));
-  PRINTLN_W("WARNING");
-  PRINTLN_E("ERROR");
+
 
   ASSERT(os_init("main", 20, OS_DEFAULT_STACK_SIZE, "idle", OS_DEFAULT_STACK_SIZE) == OS_ERR_OK);
-  os_scheduler_start();
+  //os_scheduler_start();
   //os_task_sleep(1000);
   
+  /*uint32_t volatile psp = 0;
+	__asm volatile ("mrs %[out], psp" : [out] "=r" (psp));
+
+
+  uint32_t volatile psplim = psp - 20;
+	__asm volatile ("msr psplim, %[in]" : : [in] "r" (psplim));
+	__asm volatile ("msr msplim, %[in]" : : [in] "r" (psplim));*/
+
 #if defined(SL_CATALOG_KERNEL_PRESENT)
   // Start the kernel. Task(s) created in app_init() will start running.
   sl_system_kernel_start();

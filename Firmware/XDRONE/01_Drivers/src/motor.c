@@ -6,7 +6,7 @@
  * DEFINES
  *********************************************/
 
-#define MOTOR_PWM_FREQ_HZ     1000000
+#define MOTOR_PWM_FREQ_HZ     6000000
 
 /**********************************************
  * PRIVATE FUNCTIONS
@@ -28,29 +28,39 @@ __STATIC_INLINE uint32_t TIMER_CompareGet(TIMER_TypeDef *timer, unsigned int ch)
 /***********************************************************************
  * Motor Set power
  *
- * @brief sets current motor power from 0 to 1000
+ * @brief sets current motor power from 0 to 100
  * 
- * @param motor_e motor        : [in] Which motor to get
- * @param uint16_t power_per1k : [in] Power from 0 to 1000
+ * @param motor_e motor      : [in] Which motor to get
+ * @param uint8_t power_perc : [in] Power from 0 to 100
  **********************************************************************/
-void motor_setPower(motor_e motor, uint16_t power_per1k){
-    if(motor == MOTOR_UP_LEFT)      TIMER_CompareSet(TIMER0, 0, power_per1k);
-    if(motor == MOTOR_UP_RIGHT)     TIMER_CompareSet(TIMER1, 1, power_per1k);
+void motor_setPower(motor_e motor, uint8_t power_perc){
+    if(motor >= __MOTOR_INVALID){
+        PRINTLN_E("Invalid motor");
+        return;
+    }
+
+    if(power_perc > 100){
+        PRINTLN_W("Maximum power exceeded, truncating to 100");
+        power_perc = 100;
+    }
     
-    if(motor == MOTOR_DOWN_LEFT)    TIMER_CompareSet(TIMER0, 1, power_per1k);
-    if(motor == MOTOR_DOWN_RIGHT)   TIMER_CompareSet(TIMER1, 0, power_per1k);
+    if(motor == MOTOR_UP_LEFT)      TIMER_CompareSet(TIMER0, 0, power_perc);
+    if(motor == MOTOR_UP_RIGHT)     TIMER_CompareSet(TIMER1, 1, power_perc);
+    
+    if(motor == MOTOR_DOWN_LEFT)    TIMER_CompareSet(TIMER0, 1, power_perc);
+    if(motor == MOTOR_DOWN_RIGHT)   TIMER_CompareSet(TIMER1, 0, power_perc);
 }
 
 /***********************************************************************
  * Motor Get power
  *
- * @brief Returns current motor power from 0 to 1000
+ * @brief Returns current motor power from 0 to 100
  * 
  * @param motor_e motor : [in] Which motor to get
  * 
- * @return uint16_t : Current power from 0 to 1000
+ * @return uint8_t : Current power from 0 to 100
  **********************************************************************/
-uint16_t motor_getPower(motor_e motor){
+uint8_t motor_getPower(motor_e motor){
     if(motor == MOTOR_UP_LEFT)      return TIMER_CompareGet(TIMER0, 0);
     if(motor == MOTOR_UP_RIGHT)     return TIMER_CompareGet(TIMER1, 1);
     
@@ -109,12 +119,6 @@ void motor_init(void)
     GPIO->TIMERROUTE[1].CC0ROUTE = (TIMER1_CC0_PORT << _GPIO_TIMER_CC0ROUTE_PORT_SHIFT) | (TIMER1_CC0_PIN << _GPIO_TIMER_CC0ROUTE_PIN_SHIFT);
     GPIO->TIMERROUTE[1].CC1ROUTE = (TIMER1_CC1_PORT << _GPIO_TIMER_CC1ROUTE_PORT_SHIFT) | (TIMER1_CC1_PIN << _GPIO_TIMER_CC1ROUTE_PIN_SHIFT);
     
-    PRINTLN("------------------ MOTOR INFO ---------------------------");
-    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
-    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
-    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
-    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
-    PRINTLN("---------------------------------------------------------");
 
     /* Init all channels as pwm
     ---------------------------------------------------*/
@@ -123,57 +127,23 @@ void motor_init(void)
     TIMER_InitCC(TIMER1, 0, &timerCCInit);
     TIMER_InitCC(TIMER1, 1, &timerCCInit);
 
-        PRINTLN("------------------ MOTOR INFO ---------------------------");
-    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
-    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
-    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
-    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
-    PRINTLN("---------------------------------------------------------");
-
 
     /* Set compare as 0 to turn all off
     ---------------------------------------------------*/
-    TIMER_TopSet(TIMER0, 1000);
-    TIMER_TopSet(TIMER1, 1000);
-
-        PRINTLN("------------------ MOTOR INFO ---------------------------");
-    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
-    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
-    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
-    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
-    PRINTLN("---------------------------------------------------------");
+    TIMER_TopSet(TIMER0, 100);
+    TIMER_TopSet(TIMER1, 100);
 
     motor_setPower(MOTOR_UP_LEFT, 0);
     motor_setPower(MOTOR_UP_RIGHT, 0);
 
-    PRINTLN("------------------ MOTOR INFO ---------------------------");
-    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
-    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
-    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
-    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
-    PRINTLN("---------------------------------------------------------");
-
     motor_setPower(MOTOR_DOWN_LEFT, 0);
     motor_setPower(MOTOR_DOWN_RIGHT, 0);
-
-        PRINTLN("------------------ MOTOR INFO ---------------------------");
-    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
-    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
-    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
-    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
-    PRINTLN("---------------------------------------------------------");
 
     /* Enable timer
     ---------------------------------------------------*/
     TIMER_Enable(TIMER0, true);
     TIMER_Enable(TIMER1, true);
 
-        PRINTLN("------------------ MOTOR INFO ---------------------------");
-    PRINTLN("UP LEFT:                   %d", GPIO_PinInGet(MOTOR_UP_LEFT_PORT, MOTOR_UP_LEFT_PIN));
-    PRINTLN("UP RIGHT:                  %d", GPIO_PinInGet(MOTOR_UP_RIGHT_PORT, MOTOR_UP_RIGHT_PIN));
-    PRINTLN("DOWN LEFT:                 %d", GPIO_PinInGet(MOTOR_DOWN_LEFT_PORT, MOTOR_DOWN_LEFT_PIN));
-    PRINTLN("DOWN RIGHT:                %d", GPIO_PinInGet(MOTOR_DOWN_RIGHT_PORT, MOTOR_DOWN_RIGHT_PIN));
-    PRINTLN("---------------------------------------------------------");
 #else
         /* Enable peripheral clocks
     ---------------------------------------------------*/
