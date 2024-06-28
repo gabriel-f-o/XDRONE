@@ -114,8 +114,14 @@ typedef enum{
  * MCU includes
  *********************************************/
 
-/* Include to link with cortex M4, must be at the end
+/* Include to link with cpu, must be at the end
  ---------------------------------------------------*/
+#ifdef __OS_CORTEX_M4
+#include "OS_cortexM4.h"
+#elif defined(__OS_CORTEX_M33)
 #include "OS_cortexM33.h"
+#else
+#error "Please select a supported CPU"
+#endif
 
 #endif /* INC_OS_OS_COMMON_H_ */

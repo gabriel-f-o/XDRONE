@@ -91,8 +91,13 @@ typedef struct{
 	__OS_IOM uint32_t ICSR;	 	//0xE000ED04
 	uint32_t reserved1[6];
 	__OS_IOM uint32_t SHPR3;	//0xE000ED20
-	uint32_t reserved2[25];
-	__OS_IOM uint32_t CPACR;	//0xE000ED88
+    uint32_t reserved2[1];
+    __OS_IOM uint32_t CFSR;     //0xE000ED28
+    uint32_t reserved3[2];
+    __OS_IOM uint32_t MMFAR;    //0xE000ED34
+    __OS_IOM uint32_t BFAR;     //0xE000ED38
+	uint32_t reserved4[19];
+	__OS_IOM uint32_t CPACR;	//0xE000ED88     
 }SystemControl_TypeDef;
 
 typedef struct{

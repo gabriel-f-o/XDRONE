@@ -864,3 +864,16 @@ os_handle_t os_task_getByPID(uint16_t pid){
 	return it == NULL ? NULL : it->element;
 }
 
+/***********************************************************************
+ * OS get current task
+ *
+ * @brief Get current task
+ *
+ * @return os_task_t* : reference to the current task
+ **********************************************************************/
+os_task_t const * os_task_getCurrentTask(void){
+    if(os_cur_task == NULL)
+        return NULL;
+        
+    return (os_task_t*) os_cur_task->element;
+}

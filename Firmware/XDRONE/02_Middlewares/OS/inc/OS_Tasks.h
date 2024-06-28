@@ -206,6 +206,16 @@ os_handle_t os_task_getByPID(uint16_t pid);
 
 
 /***********************************************************************
+ * OS get current task
+ *
+ * @brief Get current task
+ *
+ * @return os_task_t* : reference to the current task
+ **********************************************************************/
+os_task_t const * os_task_getCurrentTask(void);
+
+
+/***********************************************************************
  * OS Get Task from handle
  *
  * @brief This function gets the task object from the handle

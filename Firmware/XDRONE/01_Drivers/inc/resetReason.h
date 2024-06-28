@@ -9,7 +9,6 @@
 --------------------------------------------*/
 typedef enum fault_type_{
     FAULT_TYPE_NONE,
-    FAULT_TYPE_NMI,
     FAULT_TYPE_HARDFAULT,
     FAULT_TYPE_MEMMANAGE,
     FAULT_TYPE_BUSFAULT,
