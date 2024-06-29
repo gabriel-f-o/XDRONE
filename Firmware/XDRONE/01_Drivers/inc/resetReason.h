@@ -22,6 +22,12 @@ typedef enum fault_type_{
  * PUBLIC TYPES
  *********************************************/
 
+/***********************************************************************
+ * Print reset reason
+ *
+ * @brief Print reset reason
+ * 
+ **********************************************************************/
 void resetReason(void);
 
 #endif //__RESETREASON_H__

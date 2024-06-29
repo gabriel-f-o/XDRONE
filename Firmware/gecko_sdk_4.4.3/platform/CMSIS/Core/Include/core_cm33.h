@@ -2580,7 +2580,9 @@ __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
   }
   else
   {
-    SCB->SHPR[(((int32_t)IRQn) & 0xFUL)-4UL] = (uint8_t)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL);
+    uint32_t index = (((uint32_t)IRQn) & 0xFUL)-4UL;
+    if(index > 0 && index < (int)(sizeof(SCB->SHPR) / sizeof(*SCB->SHPR)))
+      SCB->SHPR[index] = (uint8_t)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL);
   }
 }
 

@@ -18,8 +18,8 @@ void sl_platform_init(void)
   sl_device_init_nvic();
   sl_device_init_dcdc();
   sl_device_init_lfxo();
-  sl_device_init_hfxo();
-  sl_device_init_dpll();
+  //sl_device_init_hfxo();
+  //sl_device_init_dpll();
   sl_device_init_clocks();
   sl_device_init_emu();
 }

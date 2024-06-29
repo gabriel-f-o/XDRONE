@@ -27,5 +27,5 @@ void app_init(void)
  ******************************************************************************/
 void app_process_action(void)
 {
-    __asm volatile("push {r0-r12}");
+    //__asm volatile("push {r0-r12}");
 }
