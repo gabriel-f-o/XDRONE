@@ -80,7 +80,7 @@ static void __used saveAndReset(fault_type_e type, uint32_t returnAddress, uint3
     /* Saves task name
     ------------------------------------------------------*/
     taskName[0] = '\0';
-    if(os_task_getCurrentTask() != NULL)
+    if(os_init_get() == 1 && os_task_getCurrentTask() != NULL)
         strncpy(taskName, os_task_getCurrentTask()->obj.name, sizeof(taskName));
 
     NVIC_SystemReset();

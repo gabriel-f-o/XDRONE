@@ -55,30 +55,37 @@ static os_err_e os_task_init_stack(uint32_t interruptStackSize){
 
 	/* Check if allocation was OK
 	 ------------------------------------------------------*/
-	if(stk == 0) return OS_ERR_INSUFFICIENT_HEAP;
+	if(stk == 0) 
+		return OS_ERR_INSUFFICIENT_HEAP;
 
 	/* Save context and make PSP = MSP
 	 ------------------------------------------------------*/
-	__asm volatile ("push {r6, lr}"); 		//Save R6 and LR
-	__asm volatile ("mrs r6, msp"); 		//R6 = MSP
-	__asm volatile ("msr psp, r6"); 		//PSP = R6
+	register uint32_t volatile mspReg = (uint32_t) ( (stk + interruptStackSize) & (~0x7UL) ); //logic and to guarantee that we are word aligned
+	__asm volatile ("mrs r1, msp"); 		//R1 = MSP
+	__asm volatile ("msr psp, r1"); 		//PSP = R1
 
 	/* Position MSP to interrput stack
 	 ------------------------------------------------------*/
-	uint32_t volatile mspReg = (uint32_t) ( (stk + interruptStackSize) & (~0x7UL) ); //logic and to guarantee that we are word aligned
-	__asm volatile ("mov r6, %[in]" : : [in] "r" (mspReg)); //R6 = mspReg
-	__asm volatile ("msr msp, r6"); //MSP = R6
+	__asm volatile ("mov r1, %[in]" : : [in] "r" (mspReg)); //R1 = mspReg
+	__asm volatile ("msr msp, r1"); //MSP = R1
 
 	/* Select PSP as current stack pointer
 	 ------------------------------------------------------*/
-	__asm volatile ("mrs r6, control");		//R6 = CTRL
-	__asm volatile ("orr r6, r6, #0x2");	//R6 |= 0x2
-	__asm volatile ("msr control, r6");		//CTRL = R6
+	__asm volatile ("mrs r1, control");		//R1 = CTRL
+	__asm volatile ("orr r1, r1, #0x2");	//R1 |= 0x2
+
+	__asm volatile ("msr control, r1");		//CTRL = R1
+
+#ifdef __OS_CORTEX_M33
+	/* Set msplimit
+	 ------------------------------------------------------*/
+	register uint32_t volatile msplim = (uint32_t)stk;
+	__asm volatile ("mov r1, %[in]" : : [in] "r" (msplim)); //R1 = msplim
+	__asm volatile ("msr msplim, r1"); 		//MSPLIM = R1
+#endif
 
 	/* Recover stack
 	 ------------------------------------------------------*/
-	__asm volatile ("pop {r6, lr}");
-
 	return OS_ERR_OK;
 }
 

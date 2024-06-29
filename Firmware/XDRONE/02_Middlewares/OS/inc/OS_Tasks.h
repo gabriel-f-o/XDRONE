@@ -240,7 +240,7 @@ static inline os_task_t* os_task_getFromHandle(os_handle_t h){
  *
  **********************************************************************/
 static inline void os_task_wait(uint32_t ms){
-    uint32_t enter = os_getMsTick();
+    uint32_t volatile enter = os_getMsTick();
 	while(os_getMsTick() - enter < ms) continue;
 }
 

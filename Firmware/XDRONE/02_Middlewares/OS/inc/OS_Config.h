@@ -30,7 +30,7 @@
 /* This define controls the size of the default function stack in bytes
  * It is recommended to have a multiple of 4
  ---------------------------------------------------*/
-#define OS_DEFAULT_STACK_SIZE					1024
+#define OS_DEFAULT_STACK_SIZE					1024*5
 
 /**************************************************
  * HEAP CONFIGURATIONS

@@ -65,7 +65,8 @@
 #endif
 
 #ifndef ASSERT
-    #define ASSERT(x)     if(!(x)) PRINTLN("Error occured");
+    #define ASSERT(x)                    do { if(!(x)) { PRINTLN_E("Assert failed!"); } } while(0)
+    #define ASSERT_EQ(val, expected)     do { if( (val) != (expected) ) { PRINTLN_E("Assert failed! Expected %d, got %d", expected, val); } } while(0)
 #endif
 
 /**********************************************
