@@ -2,7 +2,6 @@
 dmadrv_config.h=1207334949
 emlib_core_debug_config.h=-212744839
 sl_cli_config.h=690748531
-sl_cli_config_cli0.h=-2124747238
 sl_cli_config_xdrone.h=1073831299
 sl_device_init_dcdc_config.h=1498363383
 sl_device_init_dpll_config.h=2140489157

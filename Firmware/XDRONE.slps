@@ -12,6 +12,6 @@
     <properties key="projectCommon.toolchainId" value="com.silabs.ss.framework.project.core.noToolChain:0.0.0"/>
     <properties key="universalConfig.projectTypeIds" value="visual-studio-code"/>
     <properties key="projectCommon.importModeId" value="COPY"/>
-    <properties key="universalConfig.compSelProjInstanceId" value="1718486126061"/>
+    <properties key="universalConfig.compSelProjInstanceId" value="1719681576354"/>
   </descriptors>
 </model:MDescriptors>
