@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "led.h": "c",
+        "common.h": "c",
+        "sl_cli_handles.h": "c",
+        "sl_system_process_action.h": "c",
+        "cli.h": "c",
+        "motor.h": "c",
+        "sl_event_handler.h": "c",
+        "resetreason.h": "c",
+        "os.h": "c",
+        "os_scheduler.h": "c",
+        "os_common.h": "c",
+        "os_config.h": "c",
+        "os_tasks.h": "c",
+        "os_internal.h": "c",
+        "typeinfo": "c",
+        "os_msgq.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": true,
+    "cmake.ignoreCMakeListsMissing": true,
+}

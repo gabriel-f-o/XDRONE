@@ -29,8 +29,9 @@ extern os_list_cell_t* os_cur_task;	//Current task pointer
  * @return uint32_t : the amount of times the object can be taken
  *
  **********************************************************************/
-static uint32_t os_msgQ_getFreeCount(os_handle_t h){
+static uint32_t os_msgQ_getFreeCount(os_handle_t h, os_handle_t takingTask){
 	UNUSED_ARG(h);
+    UNUSED_ARG(takingTask);
 	return os_msgQ_getNumberOfMsgs(h);
 }
 

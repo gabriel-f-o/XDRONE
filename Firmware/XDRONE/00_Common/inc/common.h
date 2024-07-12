@@ -64,10 +64,26 @@
     #define PRINTLN_E(S, ...)
 #endif
 
-#ifndef ASSERT
-    #define ASSERT(x)                    do { if(!(x)) { PRINTLN_E("Assert failed!"); } } while(0)
-    #define ASSERT_EQ(val, expected)     do { if( (val) != (expected) ) { PRINTLN_E("Assert failed! Expected %d, got %d", expected, val); } } while(0)
-#endif
+#define ASSERT(x)                   do { if(!(x)) { PRINTLN_E("Assert failed!"); } } while(0)
+
+#define ASSERT_EQ(val, expected)    do {                                                                        \
+                                        int32_t vval = (int32_t)(val);                                          \
+                                        int32_t vexpected = (int32_t)(expected);                                \
+                                        if( (vval) != (vexpected) )                                             \
+                                            PRINTLN_E("Assert failed! Expected %ld, got %ld", vexpected, vval); \
+                                    } while(0)
+
+#define ASSERT_FALSE(val)           do {                                                                        \
+                                        int32_t vval = (int32_t)(val);                                          \
+                                        if( (vval)  )                                                           \
+                                            PRINTLN_E("Assert failed! Error code: %ld", vval);                  \
+                                    } while(0)
+
+#define ASSERT_TRUE(val)           do {                                                                         \
+                                        int32_t vval = (int32_t)(val);                                          \
+                                        if( !(vval)  )                                                          \
+                                            PRINTLN_E("Assert failed! Error code: %ld", vval);                  \
+                                    } while(0)
 
 /**********************************************
  * PUBLIC FUNCTIONS

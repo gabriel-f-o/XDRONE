@@ -101,10 +101,10 @@ static os_err_e os_task_init_stack(uint32_t interruptStackSize){
  * @return uint32_t : the amount of times the object can be taken
  *
  **********************************************************************/
-static uint32_t os_task_getFreeCount(os_handle_t h){
-
+static uint32_t os_task_getFreeCount(os_handle_t h, os_handle_t takingTask){
 	/* Check arguments
 	 ------------------------------------------------------*/
+    UNUSED_ARG(takingTask);
 	if(h == NULL) return 0;
 	if(h->type != OS_OBJ_TASK) return 0;
 
@@ -312,13 +312,13 @@ bool os_task_must_yeild(){
  * @param os_task_mode_e mode					: [ in] Inform what the task should do when returning (delete or keep the task block to get its return value; ATTENTION : in mode RETURN the user must use os_task_delete to avoid leaks
  * @param int8_t priority						: [ in] A priority to the task (0 is lowest priority) cannot be negative
  * @param uint32_t stack_size 					: [ in] The amount of stack to be reserved. A minimum of 128 bytes is required
- * @param void* argc							: [ in] First argument to be passed to the task (used for argc)
- * @param void* argv							: [ in] Second argument to be passed to the task (used for argv)
+ * @param int argc							    : [ in] First argument to be passed to the task (used for argc)
+ * @param char* argv[]							: [ in] Second argument to be passed to the task (used for argv)
  *
  * @return os_err_e : An error code (0 = OK)
  *
  **********************************************************************/
-os_err_e os_task_create(os_handle_t* h, char const * name, void* (*fn)(int argc, char* argv[]), os_task_mode_e mode, int8_t priority, uint32_t stack_size, void* argc, void* argv){
+os_err_e os_task_create(os_handle_t* h, char const * name, void* (*fn)(int argc, char* argv[]), os_task_mode_e mode, int8_t priority, uint32_t stack_size, int argc, char** argv){
 
 	/* Check for argument errors
 	 ------------------------------------------------------*/

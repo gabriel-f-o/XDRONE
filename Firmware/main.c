@@ -86,8 +86,8 @@ int main(void)
 
     /* OS init
     ------------------------------------------------------*/
-    ASSERT(os_init("main", 20, OS_DEFAULT_STACK_SIZE, "idle", OS_DEFAULT_STACK_SIZE) == OS_ERR_OK);
-    ASSERT(os_scheduler_start() == OS_ERR_OK);
+    ASSERT_FALSE(os_init("main", 20, OS_DEFAULT_STACK_SIZE, "idle", OS_DEFAULT_STACK_SIZE));
+    ASSERT_FALSE(os_scheduler_start());
     
     PRINTLN("OS init finished\n");
 
@@ -109,4 +109,6 @@ int main(void)
         #endif
     }
     #endif // SL_CATALOG_KERNEL_PRESENT
+
+    return 0;
 }

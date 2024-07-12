@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/XDRONE_cmake/build/default_config/XDRONE.out",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "jlink",
+            "gdbPath": "C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gdb.exe",
+            "device": "EFR32FG28AXXXF1024",
+            "serverpath": "C:/Program Files/SEGGER/JLink_V796n/JLinkGDBServerCL.exe",
+            "svdFile": "C:/SiliconLabs/SimplicityStudio/v5/offline/svd/efr32fg28a120f1024gm48.svd",
+            "symbolFiles": ["${workspaceFolder}/XDRONE_cmake/build/default_config/XDRONE.out"],
+        }
+    ]
+}

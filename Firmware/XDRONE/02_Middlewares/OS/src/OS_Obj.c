@@ -92,7 +92,7 @@ static os_handle_t os_obj_wait(os_handle_t objList[], size_t objNum, os_obj_wait
 
 			/* Get free count
 			 ---------------------------------------------------*/
-			uint32_t freeCount = ( (objList[i]->getFreeCount != NULL) ? objList[i]->getFreeCount(objList[i]) : 1 );
+			uint32_t freeCount = ( (objList[i]->getFreeCount != NULL) ? objList[i]->getFreeCount(objList[i], os_cur_task->element) : 1 );
 
 			/* Update flag to use if we should wait all
 			 ---------------------------------------------------*/
