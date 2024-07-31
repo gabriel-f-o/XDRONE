@@ -9,6 +9,7 @@
 
 extern sl_cli_command_group_t cli_led_menu;
 extern sl_cli_command_group_t cli_motor_menu;
+extern sl_cli_command_group_t cli_topicPrint_menu;
 
 /**********************************************
  * PRIVATE FUNCTIONS
@@ -73,4 +74,5 @@ void cli_init(void){
     sl_cli_command_add_command_group(sl_cli_xdrone_handle, &cli_main_group);
     sl_cli_command_add_command_group(sl_cli_xdrone_handle, &cli_led_menu);
     sl_cli_command_add_command_group(sl_cli_xdrone_handle, &cli_motor_menu);
+    sl_cli_command_add_command_group(sl_cli_xdrone_handle, &cli_topicPrint_menu);
 }

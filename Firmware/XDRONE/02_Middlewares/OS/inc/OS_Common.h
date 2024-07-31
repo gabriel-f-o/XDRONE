@@ -107,6 +107,7 @@ typedef enum{
 	OS_ERR_FORBIDDEN,
 	OS_ERR_TIMEOUT,
 	OS_ERR_UNKNOWN,
+    OS_ERR_EMPTY,
 } os_err_e;
 
 

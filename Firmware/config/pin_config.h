@@ -283,6 +283,13 @@
 #define MOTOR_UP_RIGHT_PIN                       9
 #endif
 
+#ifndef VBATT_DIV2_PORT                         
+#define VBATT_DIV2_PORT                          gpioPortD
+#endif
+#ifndef VBATT_DIV2_PIN                          
+#define VBATT_DIV2_PIN                           2
+#endif
+
 // [CUSTOM_PIN_NAME]$
 
 #endif // PIN_CONFIG_H

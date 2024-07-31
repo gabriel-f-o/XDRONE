@@ -190,8 +190,21 @@ void* os_msgQ_pop(os_handle_t h, os_err_e* err){
 	/* Check arguments
 	 ------------------------------------------------------*/
 	os_msgQ_t* msgQ = (os_msgQ_t*)h;
-	if(msgQ == NULL) return NULL;
-	if(msgQ->obj.type != OS_OBJ_MSGQ) return NULL;
+	if(msgQ == NULL || msgQ->obj.type != OS_OBJ_MSGQ){
+        if(err != NULL) 
+            *err = OS_ERR_BAD_ARG;
+
+        return NULL;
+    } 
+
+	/* Check if queue is empty
+    ------------------------------------------------------*/
+    if(((os_list_head_t*)msgQ->msgList)->listSize == 0) {
+        if(err != NULL) 
+            *err = OS_ERR_EMPTY;
+            
+        return NULL;
+    } 
 
 	/* remove message from list
 	 ------------------------------------------------------*/
@@ -200,8 +213,11 @@ void* os_msgQ_pop(os_handle_t h, os_err_e* err){
 	/* Update block list
 	 ------------------------------------------------------*/
 	os_handle_list_updateAndCheck((os_handle_t)msgQ);
-
-	return ret;
+    
+    if(err != NULL) 
+        *err = OS_ERR_OK;
+	
+    return ret;
 }
 
 

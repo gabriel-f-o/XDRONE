@@ -329,6 +329,16 @@ os_err_e os_task_create(os_handle_t* h, char const * name, void* (*fn)(int argc,
 	if(stack_size < OS_MINIMUM_STACK_SIZE)  return OS_ERR_BAD_ARG;
 	if(os_init_get() == false)				return OS_ERR_NOT_READY;
 
+	/* If task exists, return it
+	 ------------------------------------------------------*/
+	if(name != NULL){
+		os_list_cell_t* obj = os_handle_list_searchByName(&os_obj_head, OS_OBJ_TASK, name);
+		if(obj != NULL){
+			*h = obj->element;
+			return OS_ERR_OK;
+		}
+	}
+
 	/* Alloc the task block
 	 ------------------------------------------------------*/
 	os_task_t* t = (os_task_t*)os_heap_alloc(sizeof(os_task_t));

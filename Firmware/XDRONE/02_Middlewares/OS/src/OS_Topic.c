@@ -14,7 +14,7 @@
 
 /* Message Queue list structure
 ------------------------------------------------------*/
-typedef struct{
+typedef struct os_topic_msgQList_el_{
     os_handle_t associated_task;
     os_handle_t msgQ;
 } os_topic_msgQList_el_t;
@@ -92,7 +92,6 @@ static os_err_e os_topic_objTake(os_handle_t h, os_handle_t takingTask){
 	UNUSED_ARG(takingTask);
     return OS_ERR_OK;
 }
-
 
 
 /**********************************************
@@ -176,6 +175,7 @@ os_err_e os_topic_create(os_handle_t* h, char const * name)
     return OS_ERR_OK;
 }
 
+
 /***********************************************************************
  * OS Topic Subscribe
  *
@@ -226,34 +226,135 @@ os_err_e os_topic_subscribe(os_handle_t topic){
 }
 
 
-void* os_topic_receive(os_handle_t topic, os_err_e* err){
-    os_topic_t* t = (os_topic_t*)topic;
-    os_handle_t cur_task = (os_handle_t) os_task_getCurrentTask();
+/***********************************************************************
+ * OS Topic Unsubscribe
+ *
+ * @brief Unsubscribe a task from a topic
+ *
+ * @param os_handle_t topic : [in] topic to unsubscribe from
+ * @param os_handle_t task  : [in] task to unsubscribe
+ * 
+ * @return os_err_e error code (0 = OK)
+ **********************************************************************/
+os_err_e os_topic_unsubscribeTask(os_handle_t topic, os_handle_t task){
+    /* Check arguments
+    ------------------------------------------------------*/
+	if(topic == NULL)                   return OS_ERR_BAD_ARG;
+	if(topic->type != OS_OBJ_TOPIC)     return OS_ERR_BAD_ARG;
+    if(task == NULL)                    return OS_ERR_BAD_ARG;
+	if(task->type != OS_OBJ_TASK)       return OS_ERR_BAD_ARG;
 
-    os_topic_msgQList_el_t* el = os_topic_searchTaskInList(t->msgQlist, cur_task);
-    if(el != NULL){
+    /* Search for task to unsubscribe
+    ------------------------------------------------------*/
+    os_topic_t* t = (os_topic_t*)topic;
+    os_topic_msgQList_el_t* el = os_topic_searchTaskInList(t->msgQlist, task);
+    if(el == NULL)
+        return OS_ERR_OK;
+
+    os_err_e err = os_list_remove(t->msgQlist, el);
+    if(err != OS_ERR_OK)
+        return err;
+
+    /* Search for task to unsubscribe
+    ------------------------------------------------------*/
+    err = os_msgQ_delete(el->msgQ);
+    if(err != OS_ERR_OK)
+        return err;
+        
+    return os_heap_free(el);
+}
+
+/***********************************************************************
+ * OS Topic Receive
+ *
+ * @brief Receive a message published in the topic
+ *
+ * @param os_handle_t topic : [ in] Handle to topic
+ * @param os_err_e* err     : [out] Error code (or null to ignore)
+ * 
+ * @return void* : message or NULL if nothing
+ **********************************************************************/
+void* os_topic_receive(os_handle_t topic, os_err_e* err){
+
+    /* Convert address
+    ------------------------------------------------------*/
+    os_topic_t* t = (os_topic_t*)topic; 
+
+	/* Check arguments
+    ------------------------------------------------------*/
+	if(topic == NULL || topic->type != OS_OBJ_TOPIC){
+        if(err != NULL) 
+            *err = OS_ERR_BAD_ARG;
+
+        return NULL;
+    } 
+
+    /* Search for task in task list and pop message
+    ------------------------------------------------------*/
+    os_topic_msgQList_el_t* el = os_topic_searchTaskInList(t->msgQlist, (os_handle_t) os_task_getCurrentTask());
+    if(el != NULL)
         return os_msgQ_pop(el->msgQ, err);
-    }
+
+    /* Task not found
+    ------------------------------------------------------*/
+    if(err != NULL) 
+        *err = OS_ERR_INVALID;
 
     return NULL;
 }
 
-void os_topic_publish(os_handle_t topic, void* msg){
-    os_topic_t* t = (os_topic_t*)topic;
 
+/***********************************************************************
+ * OS Topic Publish
+ *
+ * @brief Publises a message to a topic
+ *
+ * @param os_handle_t topic : [ in] Handle to topic
+ * @param void* msg         : [ in] Message to send
+ * 
+ * @return os_err_e : Error code
+ **********************************************************************/
+os_err_e os_topic_publish(os_handle_t topic, void* msg){
+
+    /* Convert address
+    ------------------------------------------------------*/
+    os_topic_t* t = (os_topic_t*)topic; 
+
+	/* Check arguments
+    ------------------------------------------------------*/
+	if(topic == NULL || topic->type != OS_OBJ_TOPIC){
+        return OS_ERR_BAD_ARG;
+    } 
+
+    /* Publish messages
+    ------------------------------------------------------*/
     os_list_cell_t* it = ((os_list_head_t*) t->msgQlist)->head.next;
 	while(it != NULL && it->element != NULL){
         os_topic_msgQList_el_t* el = (os_topic_msgQList_el_t*)it->element;
 
-        os_msgQ_push(el->msgQ, msg);
+        os_err_e ret = os_msgQ_push(el->msgQ, msg);
+        if(ret != OS_ERR_OK)
+            return ret;
+
         it = it->next;
 	}
 
     if(os_handle_list_updateAndCheck((os_handle_t)t) && os_scheduler_state_get() == OS_SCHEDULER_START) 
         os_task_yeild();
 
+    return OS_ERR_OK;
 }
 
+
+/***********************************************************************
+ * OS Topic Delete
+ *
+ * @brief Deles a topic and all contained messages
+ *
+ * @param os_handle_t topic : [ in] Handle to topic
+ * 
+ * @return os_err_e : Error code
+ **********************************************************************/
 os_err_e os_topic_delete(os_handle_t topic){
 
     /* Check arguments
@@ -276,14 +377,16 @@ os_err_e os_topic_delete(os_handle_t topic){
 
 	/* Deletes from obj list
 	------------------------------------------------------*/
-	os_list_remove(&os_obj_head, topic);
-
+	os_err_e ret = os_list_remove(&os_obj_head, topic);
+    if(ret != OS_ERR_OK)
+        return ret;
+        
     /* delete topic contents
     ------------------------------------------------------*/
     os_list_clear(t->msgQlist);
     os_list_clear(topic->blockList);
 
-    os_err_e ret = os_heap_free(topic->name);
+    ret = os_heap_free(topic->name);
     if(ret != OS_ERR_OK)
         return ret;
 

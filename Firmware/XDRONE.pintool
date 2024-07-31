@@ -13,6 +13,8 @@
     <property object="PC07" propertyId="pin.name" value="MOTOR_DOWN_LEFT"/>
     <property object="PC08" propertyId="pin.name" value="MOTOR_DOWN_RIGHT"/>
     <property object="PC09" propertyId="pin.name" value="MOTOR_UP_RIGHT"/>
+    <property object="PD02" propertyId="pin.name" value="VBATT_DIV2"/>
+    <property object="PD02" propertyId="pin.reserve" value="Reserved"/>
     <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_i" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_o" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.timer0.enable.cc0" value="Enabled"/>
